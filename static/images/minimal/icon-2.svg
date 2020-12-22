@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icon</title>
-    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="abstract_2" transform="translate(1.000000, 1.000000)" fill-rule="nonzero">
-            <path d="M59.1978689,44.4068852 L59.1978689,29.5893443 C49.3347541,19.7262295 39.4716393,9.86311475 29.6085246,0 L14.7895082,0 C17.0660656,2.27508197 56.9331148,42.1421311 59.1978689,44.4068852" id="Fill-89" fill="#585555"></path>
-            <path d="M59.1978689,14.7998361 L59.1978689,0.0103278689 C59.194918,0.00590163934 59.1904918,0.00295081967 59.187541,0 L44.395082,0 C44.4467213,0.0663934426 59.155082,14.7629508 59.1978689,14.7998361" id="Fill-90" fill="#1C1B1B"></path>
-            <polyline id="Fill-91" fill="#1C1B1B" points="59.1978689 59.1963934 2.09668348e-14 59.1963934 2.09668348e-14 0 59.1978689 59.1963934"></polyline>
-        </g>
-    </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="62px" height="62px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><use id="abstract_2" xlink:href="#_Image1" x="1.014" y="1.014" width="59.198px" height="59.196px" transform="matrix(0.986633,0,0,0.9866,0,0)"/><defs><image id="_Image1" width="60px" height="60px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABgklEQVRogeXXy1GEQBQF0MOUGRiLsRCNAhqNsRgLMYwLZ0FN6czQQH+edwMsHtWn+m5ep59Hn8+jhLwM53e8pszi42vq3pIm+3nEkDJ6wnD5wepcDvyRMovXl+E8JU3+XFDS7OnyLIV+y40+Ld7/Bfp09R0efQ0mOPo3MIHRf4EJir4FJiD6Hphg6EfABEI/CiYIeg2YAOi1YBpHd/r5nHiAqdCW9f41dUmbkn4et4BpEJ1S6WWaq/dWMI2h9wDTEHovMI2g9wTTAHpvMJWjjwBTMfooMJWijwRTIfpoMJWhc4CpCJ0LTCXonGAqQG/dllJTbMsqBaYQOnellylS75JgCqBLg8mMrgFMRnQtYDKhawKTAV0bmIPRNYI5EF0rmIPQNYM5AF07mJ3RLYDZEd0KmJ3QJbel1GzasloEswHdUqWXSa53q2AS0S2DSUC3DmYlOgKYFegoYB5ERwLzADoamDvoiGBuoKOC+QMdGcwv6OhgrtD/AcwC/VT4IDkz6Gff+INkkjTUglcAAAAASUVORK5CYII="/></defs></svg>

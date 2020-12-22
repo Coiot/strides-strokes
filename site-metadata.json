@@ -1,6 +1,6 @@
 {
     "title": "Humans 4 Health",
-    "description": "No limits. No Judgments",
+    "description": "No Judgement, No Limits",
     "layout": "boxed",
     "style": "classic",
     "palette": "red",
@@ -10,7 +10,7 @@
         "type": "header",
         "template": "header",
         "title": "DIY",
-        "logo": "images/classic/logo.svg",
+        "logo": "images/logo.png",
         "has_primary_nav": false,
         "primary_nav_links": [
             {
@@ -55,7 +55,7 @@
                 "type": "action",
                 "template": "action",
                 "label": "Contact",
-                "url": "/contact",
+                "url": "/general-enquiries",
                 "style": "link"
             },
             {
@@ -63,7 +63,7 @@
                 "template": "action",
                 "label": "Get Started",
                 "url": "/",
-                "style": "secondary"
+                "style": "primary"
             }
         ],
         "has_anncmnt": false,

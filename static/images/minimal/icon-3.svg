@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icon</title>
-    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-6" transform="translate(31.000000, 31.000000) rotate(-180.000000) translate(-31.000000, -31.000000) translate(1.000000, 1.000000)">
-            <polygon id="Fill-4" fill="#585555" points="44.62 59.655 59.655 59.655 59.655 44.62 44.62 44.62"></polygon>
-            <polyline id="Fill-5" fill="#1C1B1B" points="29.585 59.655 29.585 44.8621154 14.7921154 44.8621154 14.7921154 30.07 0 30.07 0 59.655 29.585 59.655"></polyline>
-            <polygon id="Fill-6" fill="#585555" points="0 15.035 15.035 15.035 15.035 0 0 0"></polygon>
-            <polygon id="Fill-7" fill="#1C1B1B" points="30.07 29.585 59.655 29.585 59.655 0 30.07 0"></polygon>
-        </g>
-    </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="62px" height="62px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><use id="Icon" xlink:href="#_Image1" x="1.353" y="1.353" width="59.655px" height="59.655px" transform="matrix(0.99425,0,0,0.99425,0,0)"/><defs><image id="_Image1" width="60px" height="60px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA5UlEQVRoge3ZsQ3CMBRF0RuSDVKCUJZIyRowBTNEjJM16BAVGxBEQZMZQgET/Eix8vxO//V1JbuwXLTdNBHX3C/FEJo8jVfgMGN3yGbphak5WJ2D1TlYnYPVOVidg9VVCXd/gFdwdguUkcEKaIJLAd7hyb4+hmdP4wDsI6NFeGlKM4Kzu8MOVudgdQ5W52B1DlaXXXDK5+EcNyD0iVf8f/GW9qCvzwn2UpHgyzKl7O6wg9U5WJ2D1TlYnYPVZRe8uudh200lsIvOry6YX+wzOpzdkXawOgerc7A6B6tzsDoHq8su+AvfsRj+Dd8wdAAAAABJRU5ErkJggg=="/></defs></svg>

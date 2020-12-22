@@ -11,10 +11,10 @@
 	cursor: pointer;
 	display: inline-flex;
 	font-size: 0.88889em;
-	font-weight: 700;
+	font-weight: 800;
 	justify-content: center;
-	line-height: 1.25;
-	min-width: 10em;
+	line-height: 1.5;
+	min-width: 12em;
 	padding: 0.75em 1.875em;
 	text-decoration: none;
 	transition: .25s ease;
@@ -102,7 +102,7 @@
 
 .style-classic {
 	.btn {
-		border-radius: 1.875em;
+		border-radius: 1em;
 	}
 }
 

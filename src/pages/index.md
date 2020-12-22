@@ -3,100 +3,93 @@ title: Home
 sections:
   - type: hero_section
     template: hero_section
-    title: Testing
-    subtitle: Strides & Strokes
+    title: Humans 4 Health
+    subtitle: No Judgement, No Limits
     content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-      ligula, cursus id molestie vel.
-    actions:
-      - type: action
-        template: action
-        label: Try Free
-        url: /pricing
-        style: primary
-      - type: action
-        template: action
-        label: Learn More
-        url: /features
-        style: secondary
-    image: images/classic/hero.png
+      Building a community of real people, real stories, honest collaboration and information about a journey to a healthier life. This is a safe zone for friendly collaboration, encouragement and accountability.
+    # actions:
+    #   - type: action
+    #     template: action
+    #     label: Try Free
+    #     url: /pricing
+    #     style: primary
+    #   - type: action
+    #     template: action
+    #     label: Learn More
+    #     url: /features
+    #     style: secondary
+    image: images/hero.png
     media_position: left
     media_width: fifty
     align: left
     padding_top: large
     padding_bottom: large
-    background_color: primary
+    background_color: secondary
   - type: grid_section
     template: grid_section
-    title: Cards Grid Section
-    subtitle: Grid Section Example
+    title: Mission Statement
+    subtitle: Goals & Commitments
     grid_items:
       - type: grid_item
         template: grid_item
-        title: Section Item 1
+        title: Goals 1
         title_align: left
         content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+          To share meaningful and accurate information about healthy lifestyles that can translate into simple, actionable goals based on science.
         content_align: left
-        actions:
-          - type: action
-            template: action
-            label: Learn More
-            url: /style-guide
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: center
-        actions_align: left
-        image: images/classic/icon-1.svg
+        # actions:
+        #   - type: action
+        #     template: action
+        #     label: Learn More
+        #     url: /style-guide
+        #     style: link
+        #     has_icon: true
+        #     icon: arrow-right
+        #     icon_position: center
+        # actions_align: left
+        image: images/minimal/icon-1.svg
         image_position: top
         image_align: left
         image_has_padding: true
       - type: grid_item
         template: grid_item
-        title: Section Item 2
+        title: Goal 2
         title_align: left
         content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+          To help Central Florida become the Nation’s premier location for neurological/stroke awareness, education, prevention, research, and rehabilitation.
         content_align: left
-        actions:
-          - type: action
-            template: action
-            label: Learn More
-            url: /style-guide
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: center
-        actions_align: left
-        image: images/classic/icon-2.svg
+        # actions:
+        #   - type: action
+        #     template: action
+        #     label: Learn More
+        #     url: /style-guide
+        #     style: link
+        #     has_icon: true
+        #     icon: arrow-right
+        #     icon_position: center
+        # actions_align: left
+        image: images/minimal/icon-2.svg
         image_position: top
         image_align: left
         image_has_padding: true
       - type: grid_item
         template: grid_item
-        title: Section Item 3
+        title: Goal 3
         title_align: left
         content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+          To inspire YOU to be the best you can be.
         content_align: left
-        actions:
-          - type: action
-            template: action
-            label: Learn More
-            url: /style-guide
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: center
-        actions_align: left
-        image: images/classic/icon-3.svg
+        # actions:
+        #   - type: action
+        #     template: action
+        #     label: Learn More
+        #     url: /style-guide
+        #     style: link
+        #     has_icon: true
+        #     icon: arrow-right
+        #     icon_position: center
+        # actions_align: left
+        image: images/minimal/icon-3.svg
         image_position: top
         image_align: left
         image_has_padding: true
@@ -108,17 +101,27 @@ sections:
     background_color: none
   - type: cta_section
     template: cta_section
-    title: Next!
+    title: Strides & Strokes!
     content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-      ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-      fringilla, fringilla.
+      The inaugural/first public offering Humans 4 Health Inc. fundraising event will be in honor of all of the medical professionals that are dedicated to the research, treatment, and recovery of all patients that have been impacted by a Stroke. 
+      
+      
+      The event will take place on May 28 and 29, 2021. 10:00 A.M. (Friday May, 28), to 10:00 A.M. (Saturday May 29), The location will be in Baldwin Park, Florida, circling Lake Baldwin.
+      
     actions:
       - type: action
         template: action
-        label: Learn More
-        url: /features
+        label: Save the Date
+        url: /
         style: secondary
+        has_icon: true
+        icon: arrow-right
+        icon_position: right
+      - type: action
+        template: action
+        label: Sign Up!
+        url: /
+        style: primary
     actions_position: right
     actions_width: fourty
     align: left

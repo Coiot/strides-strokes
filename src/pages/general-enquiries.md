@@ -3,8 +3,8 @@ title: General enquiries
 sections:
   - type: hero_section
     template: hero_section
-    title: This is the Hero
-    subtitle: The optional subtitle
+    title: Contact Us
+    subtitle: Get in touch with the Team
     align: center
     padding_top: medium
     padding_bottom: medium
@@ -12,13 +12,13 @@ sections:
   - type: form_section
     template: form_section
     content: >-
-      ### Billing
+      ### Partnering & Sponsorships
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
       ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
       fringilla, fringilla.
 
-      ### Privacy
+      ### Other Inquiries
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
       ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
@@ -52,8 +52,9 @@ sections:
         label: Subject
         default_value: Please select
         options:
-          - Error on the site
+          - Partnering
           - Sponsorship
+          - Error on the site
           - Other
       - type: form_field
         template: form_field
