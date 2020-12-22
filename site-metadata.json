@@ -1,9 +1,9 @@
 {
-    "title": "Stackbit DIY Theme",
-    "description": "A \"do it yourself\" theme for Stackbit",
+    "title": "Humans 4 Health",
+    "description": "No limits. No Judgments",
     "layout": "boxed",
     "style": "classic",
-    "palette": "green",
+    "palette": "red",
     "mode": "light",
     "base_font": "serif",
     "header": {
@@ -11,7 +11,7 @@
         "template": "header",
         "title": "DIY",
         "logo": "images/classic/logo.svg",
-        "has_primary_nav": true,
+        "has_primary_nav": false,
         "primary_nav_links": [
             {
                 "type": "action",
@@ -62,11 +62,11 @@
                 "type": "action",
                 "template": "action",
                 "label": "Get Started",
-                "url": "/pricing",
-                "style": "primary"
+                "url": "/",
+                "style": "secondary"
             }
         ],
-        "has_anncmnt": true,
+        "has_anncmnt": false,
         "anncmnt_content": "Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn More](/pricing/)**",
         "anncmnt_align": "left",
         "anncmnt_is_home_only": true,
@@ -77,7 +77,7 @@
         "type": "footer",
         "template": "footer",
         "logo": "images/classic/logo.svg",
-        "has_primary_nav": true,
+        "has_primary_nav": false,
         "primary_nav_title": "Company",
         "primary_nav_links": [
             {
@@ -95,7 +95,7 @@
                 "style": "link"
             }
         ],
-        "has_secondary_nav": true,
+        "has_secondary_nav": false,
         "secondary_nav_title": "Blog",
         "secondary_nav_links": [
             {
@@ -120,7 +120,7 @@
                 "style": "link"
             }
         ],
-        "has_tertiary_nav": true,
+        "has_tertiary_nav": false,
         "tertiary_nav_title": "Legal",
         "tertiary_nav_links": [
             {
@@ -143,33 +143,33 @@
             {
                 "type": "action",
                 "template": "action",
+                "label": "Facebook",
+                "url": "https://facebook.com/",
+                "style": "link",
+                "has_icon": true,
+                "icon": "facebook",
+                "icon_position": "center",
+                "new_window": true
+            },
+            {
+                "type": "action",
+                "template": "action",
+                "label": "Instagram",
+                "url": "https://instagram.com/",
+                "style": "link",
+                "has_icon": true,
+                "icon": "instagram",
+                "icon_position": "center",
+                "new_window": true
+            },
+            {
+                "type": "action",
+                "template": "action",
                 "label": "Twitter",
                 "url": "https://twitter.com/",
                 "style": "link",
                 "has_icon": true,
                 "icon": "twitter",
-                "icon_position": "center",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "GitHub",
-                "url": "https://github.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "github",
-                "icon_position": "center",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "linkedin",
                 "icon_position": "center",
                 "new_window": true
             },
@@ -196,13 +196,13 @@
                 "new_window": true
             }
         ],
-        "content": "&copy; Stackbit-DIY. All rights reserved.",
+        "content": "&copy; Humans 4 Health. All rights reserved.",
         "links": [
             {
                 "type": "action",
                 "template": "action",
-                "label": "Made with Stackbit.",
-                "url": "https://www.stackbit.com",
+                "label": "Design by Xican.",
+                "url": "https://www.isaacvolpe.com",
                 "style": "link"
             }
         ]

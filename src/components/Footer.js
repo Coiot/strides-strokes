@@ -11,7 +11,7 @@ export default class Footer extends React.Component {
         let footer_content = false;
         let footer_social = false;
         if (_.get(this.props, 'pageContext.site.siteMetadata.footer.logo', null)) {
-             has_logo = true;
+             has_logo = false;
         }
         if ((_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null) || _.get(this.props, 'pageContext.site.siteMetadata.footer.links', null))) {
              footer_content = true;
