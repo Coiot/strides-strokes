@@ -29,12 +29,10 @@ sections:
     template: grid_section
     title: Mission Statement
     subtitle: Goals & Commitments
-    content: >-
-    Building a community of real people, real stories, honest collaboration and information about a journey to a healthier life. This is a safe zone for friendly collaboration, encouragement and accountability.
     grid_items:
       - type: grid_item
         template: grid_item
-        title: Goals 1
+        title: Goal 1
         title_align: left
         content: >-
           To share meaningful and accurate information about healthy lifestyles that can translate into simple, actionable goals based on science.
@@ -91,7 +89,7 @@ sections:
         #     icon: arrow-right
         #     icon_position: center
         # actions_align: left
-        image: images/minimal/icon-3.svg
+        image: images/goal3.svg
         image_position: top
         image_align: left
         image_has_padding: true
@@ -153,7 +151,7 @@ sections:
     padding_bottom: medium
     has_border: true
     background_color: secondary
-  # - type: grid_section
+#   - type: grid_section
 #     template: grid_section
 #     title: Reviews Section
 #     subtitle: Grid Section Example
