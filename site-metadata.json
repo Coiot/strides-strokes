@@ -1,182 +1,182 @@
 {
-    "title": "Humans 4 Health",
-    "description": "No Judgement, No Limits",
-    "layout": "boxed",
-    "style": "classic",
-    "palette": "red",
-    "mode": "light",
-    "base_font": "serif",
-    "header": {
-        "type": "header",
-        "template": "header",
-        "title": "DIY",
-        "logo": "images/logo.png",
-        "has_primary_nav": true,
-        "primary_nav_links": [
-            {
-                "type": "action",
-                "template": "action",
-                "label": "About",
-                "url": "/about",
-                "style": "link"
-            }
-        ],
-        "has_secondary_nav": true,
-        "secondary_nav_links": [
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Contact",
-                "url": "/contact",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Get Started",
-                "url": "/",
-                "style": "primary"
-            }
-        ],
-        "has_anncmnt": false,
-        "anncmnt_content": "Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn More](/pricing/)**",
-        "anncmnt_align": "left",
-        "anncmnt_is_home_only": true,
-        "anncmnt_has_close": true,
-        "anncmnt_id": "new-features"
-    },
-    "footer": {
-        "type": "footer",
-        "template": "footer",
-        "logo": "images/classic/logo.svg",
-        "has_primary_nav": false,
-        "primary_nav_title": "Company",
-        "primary_nav_links": [
-            {
-                "type": "action",
-                "template": "action",
-                "label": "About",
-                "url": "/about",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Style Guide",
-                "url": "/style-guide",
-                "style": "link"
-            }
-        ],
-        "has_secondary_nav": false,
-        "secondary_nav_title": "Blog",
-        "secondary_nav_links": [
-            {
-                "type": "action",
-                "template": "action",
-                "label": "News",
-                "url": "/blog/category/news",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "General",
-                "url": "/blog/category/general",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Tutorials",
-                "url": "/blog/category/tutorials",
-                "style": "link"
-            }
-        ],
-        "has_tertiary_nav": false,
-        "tertiary_nav_title": "Legal",
-        "tertiary_nav_links": [
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Terms & Conditions",
-                "url": "/terms-conditions",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Privacy Policy",
-                "url": "/privacy-policy",
-                "style": "link"
-            }
-        ],
-        "has_social": true,
-        "social_links": [
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Facebook",
-                "url": "https://facebook.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "facebook",
-                "icon_position": "center",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Instagram",
-                "url": "https://instagram.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "instagram",
-                "icon_position": "center",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Twitter",
-                "url": "https://twitter.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "twitter",
-                "icon_position": "center",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "LinkedIn",
-                "url": "https://www.youtube.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "youtube",
-                "icon_position": "center",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "template": "action",
-                "label": "LinkedIn",
-                "url": "https://vimeo.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "vimeo",
-                "icon_position": "center",
-                "new_window": true
-            }
-        ],
-        "content": "&copy; Humans 4 Health. All rights reserved.",
-        "links": [
-            {
-                "type": "action",
-                "template": "action",
-                "label": "Design by Xican.",
-                "url": "https://www.isaacvolpe.com",
-                "style": "link"
-            }
-        ]
-    }
+  "title": "Humans 4 Health",
+  "description": "No Judgement, No Limits",
+  "layout": "boxed",
+  "style": "classic",
+  "palette": "red",
+  "mode": "light",
+  "base_font": "serif",
+  "header": {
+    "type": "header",
+    "template": "header",
+    "title": "DIY",
+    "logo": "images/logo.png",
+    "has_primary_nav": true,
+    "primary_nav_links": [
+      {
+        "type": "action",
+        "template": "action",
+        "label": "About",
+        "url": "/about",
+        "style": "link"
+      }
+    ],
+    "has_secondary_nav": true,
+    "secondary_nav_links": [
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Contact",
+        "url": "/contact",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Get Started",
+        "url": "/",
+        "style": "primary"
+      }
+    ],
+    "has_anncmnt": false,
+    "anncmnt_content": "Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn More](/pricing/)**",
+    "anncmnt_align": "left",
+    "anncmnt_is_home_only": true,
+    "anncmnt_has_close": true,
+    "anncmnt_id": "new-features"
+  },
+  "footer": {
+    "type": "footer",
+    "template": "footer",
+    "logo": "images/classic/logo.svg",
+    "has_primary_nav": false,
+    "primary_nav_title": "Company",
+    "primary_nav_links": [
+      {
+        "type": "action",
+        "template": "action",
+        "label": "About",
+        "url": "/about",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Style Guide",
+        "url": "/style-guide",
+        "style": "link"
+      }
+    ],
+    "has_secondary_nav": false,
+    "secondary_nav_title": "Blog",
+    "secondary_nav_links": [
+      {
+        "type": "action",
+        "template": "action",
+        "label": "News",
+        "url": "/blog/category/news",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "General",
+        "url": "/blog/category/general",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Tutorials",
+        "url": "/blog/category/tutorials",
+        "style": "link"
+      }
+    ],
+    "has_tertiary_nav": false,
+    "tertiary_nav_title": "Legal",
+    "tertiary_nav_links": [
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Terms & Conditions",
+        "url": "/terms-conditions",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Privacy Policy",
+        "url": "/privacy-policy",
+        "style": "link"
+      }
+    ],
+    "has_social": true,
+    "social_links": [
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Facebook",
+        "url": "https://facebook.com/",
+        "style": "link",
+        "has_icon": true,
+        "icon": "facebook",
+        "icon_position": "center",
+        "new_window": true
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Instagram",
+        "url": "https://instagram.com/",
+        "style": "link",
+        "has_icon": true,
+        "icon": "instagram",
+        "icon_position": "center",
+        "new_window": true
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Twitter",
+        "url": "https://twitter.com/",
+        "style": "link",
+        "has_icon": true,
+        "icon": "twitter",
+        "icon_position": "center",
+        "new_window": true
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "LinkedIn",
+        "url": "https://www.youtube.com/",
+        "style": "link",
+        "has_icon": true,
+        "icon": "youtube",
+        "icon_position": "center",
+        "new_window": true
+      },
+      {
+        "type": "action",
+        "template": "action",
+        "label": "LinkedIn",
+        "url": "https://vimeo.com/",
+        "style": "link",
+        "has_icon": true,
+        "icon": "vimeo",
+        "icon_position": "center",
+        "new_window": true
+      }
+    ],
+    "content": "&copy; Humans 4 Health. All rights reserved.",
+    "links": [
+      {
+        "type": "action",
+        "template": "action",
+        "label": "Design by Xican.",
+        "url": "https://www.isaacvolpe.com",
+        "style": "link"
+      }
+    ]
+  }
 }
