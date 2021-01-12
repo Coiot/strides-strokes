@@ -32,12 +32,8 @@ fields:
     required: true
 pages:
 - src/pages/about.md
-- src/pages/blog/author/dianne-ameter.md
-- src/pages/blog/author/gustav-purpleson.md
-- src/pages/blog/author/hilary-ouse.md
 - src/pages/blog/category/general.md
 - src/pages/blog/category/news.md
-- src/pages/blog/category/tutorials.md
 - src/pages/blog/index.md
 - src/pages/contact.md
 - src/pages/general-enquiries.md
