@@ -6,6 +6,7 @@ sections:
     title: About
     subtitle: How we got started
     align: center
+    feature_padding_vert: small
     background_color: secondary
   - type: features_section
     template: features_section
@@ -16,7 +17,7 @@ sections:
           Humans4Health Inc. (H4H)* was formed to create an environment conducive to sharing information around the promotion of healthy lifestyles through education, awareness, and engagement. <small>*501 (3) C status pending</small>
         image: images/logo.png
         media_position: right
-        media_width: fourty
+        media_width: fifty
       - type: feature
         template: feature
         content: >-
@@ -37,7 +38,7 @@ sections:
           Our first initiative is partnering with the AdventHealth Foundation | Central Florida on behalf of the <a href="https://www.adventhealthneuroinstitute.com/">AdventHealth Neuroscience Institute</a> to raise funds and further innovation in patient care, research, and technology for people impacted by strokes.
         image: images/AdventHealth_Foundation_CentralFlorida_4c_0.svg
         media_position: left
-        media_width: fifty
+        media_width: fourty
 
   - type: cta_section
     template: cta_section

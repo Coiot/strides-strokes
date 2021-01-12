@@ -6,7 +6,7 @@ sections:
     title: Humans 4 Health
     subtitle: No Judgement, No Limits
     content: >-
-      Building a community of real people, real stories, honest collaboration and information about a journey to a healthier life. This is a safe zone for friendly collaboration, encouragement and accountability.
+      No Judgements, No Limits.  We're building a community of real people, stories, honest collaboration about a journey to a healthier life.
     # actions:
     #   - type: action
     #     template: action
@@ -108,6 +108,9 @@ sections:
 
       The event will take place on May 28 and 29, 2021. 10:00 A.M. (Friday May, 28), to 10:00 A.M. (Saturday May 29), The location will be in Baldwin Park, Florida, circling Lake Baldwin.
 
+
+      The significance of our endurance event is to honor the 24 hour, seven day a week impact a stroke has on the person, their families, friends and ultimately their life.  Recovery and rehabilitation is far more challenging than one 24 hour event. It is our hope to bring recognition to those who challenge themselves to overcome this preventable condition.
+
     actions:
       - type: action
         template: action
@@ -128,6 +131,118 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: primary
+
+  #   - type: grid_section
+  #     template: grid_section
+  #     title: Reviews Section
+  #     subtitle: Grid Section Example
+  #     grid_items:
+  #       - type: grid_item
+  #         template: grid_item
+  #         content: >-
+  #           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
+  #           ligula, cursus id molestie vel, maximus aliquet risus.
+  #
+  #
+  #           **Hanson Deck,** *App Developer, Studio*
+  #         image: images/hanson-deck.png
+  #         image_position: left
+  #         image_width: twenty-five
+  #       - type: grid_item
+  #         template: grid_item
+  #         content: >-
+  #           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
+  #           ligula, cursus id molestie vel, maximus aliquet risus.
+  #
+  #
+  #           **Miles Tone,** *CEO, Studio*
+  #         image: images/miles-tone.png
+  #         image_position: left
+  #         image_width: twenty-five
+  #       - type: grid_item
+  #         template: grid_item
+  #         content: >-
+  #           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
+  #           ligula, cursus id molestie vel, maximus aliquet risus.
+  #
+  #
+  #           **Eleanor Carr,** *CTO, Studio*
+  #         image: images/eleanor-carr.png
+  #         image_position: left
+  #         image_width: twenty-five
+  #       - type: grid_item
+  #         template: grid_item
+  #         content: >-
+  #           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
+  #           ligula, cursus id molestie vel, maximus aliquet risus.
+  #
+  #
+  #           **Gordon Norman,** *Web Designer, Studio*
+  #         image: images/gordon-norman.png
+  #         image_position: left
+  #         image_width: twenty-five
+  #     grid_cols: two
+  #     grid_gap_vert: large
+  #     grid_gap_horiz: medium
+  #     align: center
+  #     background_color: secondary
+
+  - type: features_section
+    template: features_section
+    features:
+      - type: feature
+        template: feature
+        title: I have a personal connection to this initiative.  I lost my mother to stroke complications in May of 2018.
+        subtitle: "Rick Dandrow, Founder of Humans4Health"
+        content: >-
+          My Mother, Mary Ann, had suffered some minor stroke episodes leading up to the final brain injury in May 2018 and days later she was gone. 
+
+
+          At the end of that same year, I had a close friend suffer a stroke.  He is two years younger than I, and continues to this day, to try and regain the lifestyle he once had.  Two years later, he continues to fight.  What is so impressive about my dear friend James and his Wife Margaret, is their never ending will to fight.  A fight that requires endurance, a fight that requires multiple layers of care.  A fight that has been supported by family and friends, and their love of God.  What is astounding, Is that I have never personally witnessed James and Margaret without a smile. Negative attitudes have not been present in their recovery. 
+
+
+          It is their will and determination that has inspired me to dedicate our first fundraising initiative to the professionals who have provided care to James throughout the recovery journey he has so impressively stayed committed.
+        image: images/home_feature_1.jpg
+        media_position: right
+        media_width: fourty
+    feature_padding_vert: small
+    background_color: secondary
+
+  - type: grid_section
+    template: grid_section
+    title: Strides & Strokes
+    subtitle: Sponsor Grid
+    grid_items:
+      - type: grid_item
+        template: grid_item
+        image: images/logo-8.svg
+        image_align: center
+      - type: grid_item
+        template: grid_item
+        image: images/logo-8.svg
+        image_align: center
+      - type: grid_item
+        template: grid_item
+        image: images/logo-8.svg
+        image_align: center
+      - type: grid_item
+        template: grid_item
+        image: images/logo-8.svg
+        image_align: center
+      - type: grid_item
+        template: grid_item
+        image: images/logo-8.svg
+        image_align: center
+      - type: grid_item
+        template: grid_item
+        image: images/logo-8.svg
+        image_align: center
+    grid_cols: three
+    grid_gap_vert: medium
+    grid_gap_horiz: medium
+    align: center
+    background_color: none
+
   - type: form_section
     template: form_section
     title: H4H Newsletter
@@ -151,191 +266,74 @@ sections:
     padding_bottom: medium
     has_border: true
     background_color: secondary
-#   - type: grid_section
-#     template: grid_section
-#     title: Reviews Section
-#     subtitle: Grid Section Example
-#     grid_items:
-#       - type: grid_item
-#         template: grid_item
-#         content: >-
-#           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-#           ligula, cursus id molestie vel, maximus aliquet risus.
-#
-#
-#           **Hanson Deck,** *App Developer, Studio*
-#         image: images/hanson-deck.png
-#         image_position: left
-#         image_width: twenty-five
-#       - type: grid_item
-#         template: grid_item
-#         content: >-
-#           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-#           ligula, cursus id molestie vel, maximus aliquet risus.
-#
-#
-#           **Miles Tone,** *CEO, Studio*
-#         image: images/miles-tone.png
-#         image_position: left
-#         image_width: twenty-five
-#       - type: grid_item
-#         template: grid_item
-#         content: >-
-#           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-#           ligula, cursus id molestie vel, maximus aliquet risus.
-#
-#
-#           **Eleanor Carr,** *CTO, Studio*
-#         image: images/eleanor-carr.png
-#         image_position: left
-#         image_width: twenty-five
-#       - type: grid_item
-#         template: grid_item
-#         content: >-
-#           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-#           ligula, cursus id molestie vel, maximus aliquet risus.
-#
-#
-#           **Gordon Norman,** *Web Designer, Studio*
-#         image: images/gordon-norman.png
-#         image_position: left
-#         image_width: twenty-five
-#     grid_cols: two
-#     grid_gap_vert: large
-#     grid_gap_horiz: medium
-#     align: center
-#     background_color: secondary
-# - type: grid_section
-#   template: grid_section
-#   title: Image Grid
-#   subtitle: Grid Section Example
-#   grid_items:
-#     - type: grid_item
-#       template: grid_item
-#       image: images/logo-1.svg
-#       image_align: center
-#     - type: grid_item
-#       template: grid_item
-#       image: images/logo-2.svg
-#       image_align: center
-#     - type: grid_item
-#       template: grid_item
-#       image: images/logo-3.svg
-#       image_align: center
-#     - type: grid_item
-#       template: grid_item
-#       image: images/logo-4.svg
-#       image_align: center
-#     - type: grid_item
-#       template: grid_item
-#       image: images/logo-5.svg
-#       image_align: center
-#     - type: grid_item
-#       template: grid_item
-#       image: images/logo-6.svg
-#       image_align: center
-#     - type: grid_item
-#       template: grid_item
-#       image: images/logo-7.svg
-#       image_align: center
-#     - type: grid_item
-#       template: grid_item
-#       image: images/logo-8.svg
-#       image_align: center
-#   grid_cols: four
-#   grid_gap_vert: medium
-#   grid_gap_horiz: medium
-#   align: center
-# - type: features_section
-#   template: features_section
-#   title: Features Section
-#   subtitle: Features Section Example
-#   features:
-#     - type: feature
-#       template: feature
-#       title: The Big Title For the Feature
-#       subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
-#       content: >-
-#         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-#         ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-#         fringilla, fringilla.
-#       actions:
-#         - type: action
-#           template: action
-#           label: Learn More
-#           url: /style-guide
-#           style: primary
-#           has_icon: true
-#           icon: arrow-right
-#           icon_position: right
-#       image: images/classic/feature-1.png
-#       media_position: right
-#       media_width: fifty
-#     - type: feature
-#       template: feature
-#       title: The Big Title For the Feature
-#       content: >-
-#         Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-#         diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-#         euismod lacinia.
-#       actions:
-#         - type: action
-#           template: action
-#           label: Learn More
-#           url: /style-guide
-#           style: primary
-#           has_icon: true
-#           icon: arrow-right
-#           icon_position: right
-#       image: images/classic/feature-2.png
-#       media_position: left
-#       media_width: fifty
-#     - type: feature
-#       template: feature
-#       title: The Big Title For the Feature
-#       subtitle: 'Sed sed commodo turpis, eget rutrum dui.'
-#       content: >-
-#         Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-#         diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-#         euismod lacinia.
-#       actions:
-#         - type: action
-#           template: action
-#           label: Learn More
-#           url: /style-guide
-#           style: primary
-#           has_icon: true
-#           icon: arrow-right
-#           icon_position: right
-#       image: images/classic/feature-3.png
-#       media_position: right
-#       media_width: fifty
-#   feature_padding_vert: large
-#   align: center
-#   background_color: primary
-# - type: features_section
-#   template: features_section
-#   features:
-#     - type: feature
-#       template: feature
-#       title: >-
-#         “Stackbit is fast! Themes are always up to date. It’s easy to use
-#         across the organization, and collaboration is easy.”
-#       subtitle: 'Brandon Guidelines, Sr. Design Manager at Company'
-#       actions:
-#         - type: action
-#           template: action
-#           label: Learn More
-#           url: /style-guide
-#           style: secondary
-#           has_icon: true
-#           icon: arrow-right
-#           icon_position: right
-#       image: images/brandon-guidelines.png
-#       media_position: right
-#       media_width: thirty-three
-#   feature_padding_vert: small
-#   background_color: primary
+
+  # - type: features_section
+  #   template: features_section
+  #   title: Features Section
+  #   subtitle: Features Section Example
+  #   features:
+  #     - type: feature
+  #       template: feature
+  #       title: The Big Title For the Feature
+  #       subtitle: "In fermentum odio et tortor laoreet, sed interdum augue ornare. "
+  #       content: >-
+  #         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
+  #         ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
+  #         fringilla, fringilla.
+  #       actions:
+  #         - type: action
+  #           template: action
+  #           label: Learn More
+  #           url: /style-guide
+  #           style: primary
+  #           has_icon: true
+  #           icon: arrow-right
+  #           icon_position: right
+  #       image: images/classic/feature-1.png
+  #       media_position: right
+  #       media_width: fifty
+  #     - type: feature
+  #       template: feature
+  #       title: The Big Title For the Feature
+  #       content: >-
+  #         Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
+  #         diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
+  #         euismod lacinia.
+  #       actions:
+  #         - type: action
+  #           template: action
+  #           label: Learn More
+  #           url: /style-guide
+  #           style: primary
+  #           has_icon: true
+  #           icon: arrow-right
+  #           icon_position: right
+  #       image: images/classic/feature-2.png
+  #       media_position: left
+  #       media_width: fifty
+  #     - type: feature
+  #       template: feature
+  #       title: The Big Title For the Feature
+  #       subtitle: "Sed sed commodo turpis, eget rutrum dui."
+  #       content: >-
+  #         Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
+  #         diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
+  #         euismod lacinia.
+  #       actions:
+  #         - type: action
+  #           template: action
+  #           label: Learn More
+  #           url: /style-guide
+  #           style: primary
+  #           has_icon: true
+  #           icon: arrow-right
+  #           icon_position: right
+  #       image: images/classic/feature-3.png
+  #       media_position: right
+  #       media_width: fifty
+  #   feature_padding_vert: large
+  #   align: center
+  #   background_color: primary
 
 # - type: grid_section
 #   template: grid_section
@@ -403,5 +401,6 @@ sections:
 #   padding_bottom: medium
 #   has_border: false
 #   background_color: none
+
 template: advanced
 ---
