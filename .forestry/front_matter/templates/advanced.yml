@@ -44,7 +44,6 @@ pages:
 - src/pages/blog/tag/sourcebit.md
 - src/pages/blog/tag/stackbit.md
 - src/pages/contact.md
-- src/pages/features.md
 - src/pages/general-enquiries.md
 - src/pages/index.md
 - src/pages/thank-you.md

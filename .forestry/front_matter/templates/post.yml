@@ -77,8 +77,6 @@ fields:
   config:
     required: true
 pages:
-- src/pages/blog/post-1.md
 - src/pages/blog/post-2.md
 - src/pages/blog/post-3.md
-- src/pages/blog/post-4.md
 - src/pages/blog/post-5.md
