@@ -39,7 +39,6 @@ pages:
 - src/pages/blog/category/news.md
 - src/pages/blog/category/tutorials.md
 - src/pages/blog/index.md
-- src/pages/blog/tag/jamstack.md
 - src/pages/contact.md
 - src/pages/general-enquiries.md
 - src/pages/index.md
