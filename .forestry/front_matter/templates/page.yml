@@ -21,4 +21,3 @@ fields:
     required: true
 pages:
 - src/pages/privacy-policy.md
-- src/pages/terms-conditions.md
