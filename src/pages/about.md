@@ -74,7 +74,7 @@ sections:
       care, research, and technology for people impacted by strokes.
     image: images/AdventHealth_Foundation_CentralFlorida_4c_0.svg
     media_position: left
-    media_width: thirty-three
+    media_width: sixty
     title: ''
     subtitle: ''
     actions: []
