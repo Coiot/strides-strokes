@@ -3,10 +3,6 @@ label: Footer configuration
 hide_body: true
 display_field: content
 fields:
-- type: file
-  name: logo
-  label: Logo
-  description: The logo image displayed on the left side
 - type: boolean
   name: has_primary_nav
   label: Enable primary navigation menu
