@@ -12,17 +12,6 @@ fields:
   name: description
   label: Site description
   description: The default site description used in meta data
-- type: select
-  name: base_font
-  label: Font
-  default: sans-serif
-  config:
-    required: true
-    source:
-      type: custom
-    options:
-    - sans-serif
-    - serif
 - type: field_group
   name: header
   label: Header configuration
