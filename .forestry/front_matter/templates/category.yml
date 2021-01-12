@@ -26,7 +26,3 @@ fields:
   default: category
   config:
     required: true
-pages:
-- src/data/categories/general.yaml
-- src/data/categories/news.yaml
-- src/data/categories/tutorials.yaml
