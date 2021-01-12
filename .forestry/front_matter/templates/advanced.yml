@@ -36,6 +36,5 @@ pages:
 - src/pages/blog/category/news.md
 - src/pages/blog/index.md
 - src/pages/contact.md
-- src/pages/general-enquiries.md
 - src/pages/index.md
 - src/pages/thank-you.md

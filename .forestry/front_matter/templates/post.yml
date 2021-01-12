@@ -76,5 +76,3 @@ fields:
   default: post
   config:
     required: true
-pages:
-- src/pages/blog/post-5.md
