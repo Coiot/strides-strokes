@@ -26,8 +26,3 @@ fields:
   default: tag
   config:
     required: true
-pages:
-- src/data/tags/jamstack.yaml
-- src/data/tags/netlify.yaml
-- src/data/tags/sourcebit.yaml
-- src/data/tags/stackbit.yaml

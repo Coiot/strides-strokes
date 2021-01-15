@@ -32,8 +32,3 @@ fields:
   default: person
   config:
     required: true
-pages:
-- src/data/team/dianne-ameter.yaml
-- src/data/team/gustav-purpleson.yaml
-- src/data/team/hilary-ouse.yaml
-- src/data/team/hugh-saturation.yaml

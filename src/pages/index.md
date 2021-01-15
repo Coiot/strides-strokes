@@ -403,4 +403,6 @@ sections:
 #   background_color: none
 
 template: advanced
+excerpt: ''
+
 ---

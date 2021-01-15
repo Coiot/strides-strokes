@@ -56,4 +56,6 @@ sections:
     has_border: false
     background_color: primary
 template: advanced
+excerpt: ''
+
 ---
