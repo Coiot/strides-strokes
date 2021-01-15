@@ -18,7 +18,7 @@ sections:
   align: center
   padding_bottom: large
   background_color: none
-  content: "\U0001F44B\U0001F3FC"
+  content: "\U0001F44B\U0001F3FC Testing"
   image: ''
   video_embed_html: ''
   media_position: ''
