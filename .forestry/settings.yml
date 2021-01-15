@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: static/admin
-webhook_url: https://api.stackbit.com/project/9c172aeee218f58e3b80037fa7eccbe0c250370514c729d827778915c9481fa4/webhook/forestry
+webhook_url: https://api.stackbit.com/project/5fc7def68ebc68001c207344/webhook/forestry
 sections:
 - type: document
   path: site-metadata.json
