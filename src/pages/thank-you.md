@@ -18,7 +18,7 @@ sections:
   align: center
   padding_bottom: large
   background_color: none
-  content: ''
+  content: One last test
   image: ''
   video_embed_html: ''
   media_position: ''
