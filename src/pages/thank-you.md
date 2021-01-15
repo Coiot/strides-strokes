@@ -18,7 +18,7 @@ sections:
   align: center
   padding_bottom: large
   background_color: none
-  content: One last test, really really really really really
+  content: "\U0001F44B\U0001F3FC"
   image: ''
   video_embed_html: ''
   media_position: ''
