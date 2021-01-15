@@ -54,6 +54,15 @@ sections:
           patient care, research, and technology for people impacted by strokes.
         media_position: left
         media_width: fourty
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: right
+            new_window: false
+            type: action
   - type: cta_section
     template: cta_section
     title: Everybody Means Every Body
