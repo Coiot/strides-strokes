@@ -8,7 +8,6 @@ sections:
     content: >
       No Judgements, No Limits.  We're building a community of real people,
       stories, honest collaboration about a journey to a healthier life.
-      Testing.
     image: images/hero.png
     media_position: left
     media_width: fifty
