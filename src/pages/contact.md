@@ -102,5 +102,5 @@ sections:
     background_image_position: ''
     background_image_repeat: ''
 template: advanced
-excerpt: ''
+excerpt: Get in touch with the Team
 ---
