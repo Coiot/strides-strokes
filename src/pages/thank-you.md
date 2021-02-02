@@ -20,7 +20,7 @@ sections:
     background_color: none
     content: "\U0001F44B\U0001F3FC\n"
     image: ''
-    video_embed_html: ''
+    video_embed_html: '1'
     media_position: ''
     media_width: ''
     padding_top: ''
