@@ -55,6 +55,7 @@ sections:
         media_position: left
         media_width: fourty
         actions: []
+        image: /images/BenefitingAdventHealthLogo.png
   - type: cta_section
     template: cta_section
     title: Everybody Means Every Body
