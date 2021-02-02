@@ -93,7 +93,7 @@ sections:
     padding_top: medium
     padding_bottom: medium
     background_color: primary
-    title: Contact Us
+    title: ''
     subtitle: Get in touch with the Team
     title_align: ''
     has_border: false
