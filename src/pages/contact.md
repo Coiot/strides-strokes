@@ -9,17 +9,17 @@ sections:
     padding_top: small
     padding_bottom: none
     background_color: none
-    content: ''
+    content: ""
     actions: []
-    image: ''
-    video_embed_html: ''
-    media_position: ''
-    media_width: ''
+    image: ""
+    video_embed_html: ""
+    media_position: ""
+    media_width: ""
     has_border: false
-    background_image: ''
-    background_image_size: ''
-    background_image_position: ''
-    background_image_repeat: ''
+    background_image: ""
+    background_image_size: ""
+    background_image_position: ""
+    background_image_repeat: ""
   - type: form_section
     template: form_section
     content: >-
@@ -86,21 +86,21 @@ sections:
           I understand that this form is storing my submitted information so I
           can be contacted.
         is_required: true
-        default_value: ''
+        default_value: ""
         options: []
     submit_label: Send Message
     align_vert: top
     padding_top: medium
     padding_bottom: medium
     background_color: primary
-    title: ''
-    subtitle: ''
-    title_align: ''
+    title: ""
+    subtitle: ""
+    title_align: ""
     has_border: false
-    background_image: ''
-    background_image_size: ''
-    background_image_position: ''
-    background_image_repeat: ''
+    background_image: ""
+    background_image_size: ""
+    background_image_position: ""
+    background_image_repeat: ""
 template: advanced
 excerpt: Get in touch with the Team
 ---
