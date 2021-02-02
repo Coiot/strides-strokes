@@ -4,7 +4,7 @@ sections:
   - type: hero_section
     template: hero_section
     title: Thank you for contacting us!
-    subtitle: We will get back in touch with you soon. Have a great day!
+    subtitle: We will get back in touch with you soon. Have a great day
     actions:
       - type: action
         template: action
