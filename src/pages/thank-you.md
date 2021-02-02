@@ -43,7 +43,7 @@ sections:
 
       - dolor sit amet
     actions: []
-    video_embed_html: '""'
+    video_embed_html: ''
     media_position: top
     media_width: fifty
     align: left
