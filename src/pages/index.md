@@ -64,11 +64,15 @@ sections:
   - type: cta_section
     template: cta_section
     title: Strides & Strokes!
-    content: >-
+    content: >
       The inaugural/first public offering Humans 4 Health Inc. fundraising event
       will be in honor of all of the medical professionals that are dedicated to
       the research, treatment, and recovery of all patients that have been
-      impacted by a Stroke. 
+      impacted by a Stroke.
+
+
+      We are partnering with the** AdventHealth Foundation | Central Florida**
+      in benefit of the **AdventHealth Neuroscience Institute**. 
 
 
       The event will take place on May 28 and 29, 2021. 10:00 A.M. (Friday May,
@@ -80,7 +84,8 @@ sections:
       a week impact a stroke has on the person, their families, friends and
       ultimately their life.  Recovery and rehabilitation is far more
       challenging than one 24 hour event. It is our hope to bring recognition to
-      those who challenge themselves to overcome this preventable condition.
+      those who challenge themselves to overcome this preventable condition.  We
+      also hope to inspire others to try and live healthier lifestyles.
     actions:
       - type: action
         template: action
