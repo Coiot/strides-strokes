@@ -72,7 +72,7 @@ sections:
 
 
       We are partnering with the **AdventHealth Foundation | Central Florida**
-      in benefit of the **AdventHealth Neuroscience Institute**.
+      for the benefit of the **AdventHealth Neuroscience Institute**.
 
 
       The event will take place on May 28 and 29, 2021. 10:00 A.M. (Friday May,
