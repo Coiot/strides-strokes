@@ -4,7 +4,7 @@ sections:
   - type: hero_section
     template: hero_section
     title: Contact Us
-    subtitle: ''
+    subtitle: Get in touch with the Team
     align: center
     padding_top: medium
     padding_bottom: medium
