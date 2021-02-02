@@ -94,7 +94,7 @@ sections:
     padding_bottom: medium
     background_color: primary
     title: Contact Us
-    subtitle: Use the Contact Form below to contact us about any issue.
+    subtitle: Get in touch with the Team
     title_align: ''
     has_border: false
     background_image: ''
