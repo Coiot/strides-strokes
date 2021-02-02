@@ -327,7 +327,7 @@ models:
         description: The excerpt of the page displayed in meta data
   post:
     type: page
-    urlPath: '/blog/{slug}'
+    urlPath: "/blog/{slug}"
     label: Post
     layout: post
     folder: blog
@@ -453,7 +453,7 @@ models:
         name: image
         label: Image
         description: The image of the section
-      - type: text
+      - type: enum
         name: video_embed_html
         label: Video Embed Code
         description: The HTML embed code for your video
@@ -603,7 +603,7 @@ models:
           - right
           - center
         default: center
-        description: 'The horizontal alignment of the section content (title, subtitle)'
+        description: "The horizontal alignment of the section content (title, subtitle)"
       - type: enum
         name: padding_top
         label: Section top padding
@@ -1156,7 +1156,7 @@ models:
         description: The subtitle of the section displayed below the title
       - type: enum
         name: title_align
-        label: 'Title, subtitle alignment'
+        label: "Title, subtitle alignment"
         options:
           - left
           - right
@@ -1353,7 +1353,7 @@ models:
         name: image
         label: Image
         description: The image of the feature
-      - type: text
+      - type: enum
         name: video_embed_html
         label: Video Embed Code
         description: The HTML embed code for your video
@@ -1404,7 +1404,7 @@ models:
         description: The subtitle of the item displayed below the title
       - type: enum
         name: title_align
-        label: 'Title, subtitle alignment'
+        label: "Title, subtitle alignment"
         options:
           - left
           - right
@@ -1512,12 +1512,12 @@ models:
       - type: string
         name: name
         label: Name
-        description: 'The name of the field, submitted with the form'
+        description: "The name of the field, submitted with the form"
         required: true
       - type: string
         name: label
         label: Label
-        description: 'The caption of the field, shown above the field input'
+        description: "The caption of the field, shown above the field input"
       - type: string
         name: default_value
         label: Placeholder text or default value
