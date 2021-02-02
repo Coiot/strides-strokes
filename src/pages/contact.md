@@ -7,7 +7,7 @@ sections:
     subtitle: Get in touch with the Team
     align: center
     padding_top: medium
-    padding_bottom: small
+    padding_bottom: none
     background_color: none
     content: ''
     actions: []
