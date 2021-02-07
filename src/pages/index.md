@@ -19,7 +19,7 @@ sections:
     background_color: secondary
   - type: grid_section
     template: grid_section
-    title: Mission Statement
+    title: Goals and Committments
     subtitle: Goals & Commitments
     grid_items:
       - type: grid_item
