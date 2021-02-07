@@ -1,6 +1,6 @@
 ---
 title: Founders
-excerpt: lorem-ipsum
+excerpt: Rick Dandrow
 template: page
 ---
 ## Lorem ipsum
