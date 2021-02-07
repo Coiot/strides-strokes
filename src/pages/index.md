@@ -125,9 +125,9 @@ sections:
           I have a personal connection to this initiative.  I lost my mother to
           stroke complications in May of 2018.
         subtitle: 'Rick Dandrow, Founder of Humans4Health'
-        content: >-
+        content: >
           My Mother, Mary Ann, had suffered some minor stroke episodes leading
-          up to the final brain injury in May 2018 and days later she was gone. 
+          up to the final brain injury in May 2018 and days later she was gone.
 
 
           At the end of that same year, I had a close friend suffer a stroke. 
@@ -139,13 +139,17 @@ sections:
           that has been supported by family and friends, and their love of God. 
           What is astounding, Is that I have never personally witnessed James
           and Margaret without a smile. Negative attitudes have not been present
-          in their recovery. 
+          in their recovery.
 
 
           It is their will and determination that has inspired me to dedicate
           our first fundraising initiative to the professionals who have
           provided care to James throughout the recovery journey he has so
           impressively stayed committed.
+
+
+          James's care has been provided by the medical professionals of
+          **AdventHealth Central Florida**.
         image: images/home_feature_1.jpg
         media_position: right
         media_width: fourty
