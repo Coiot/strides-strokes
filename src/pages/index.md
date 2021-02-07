@@ -51,9 +51,12 @@ sections:
         template: grid_item
         title: Goal 3
         title_align: left
-        content: >
-          To inspire YOU!  To encourage you to be the best YOU can be!  To fight
-          for YOU!
+        content: |
+          *   To inspire YOU!
+
+          *   To encourage YOU to be the best YOU can be!
+
+          *   To fight for YOU!
         content_align: left
         image: images/goal3.svg
         image_position: top
