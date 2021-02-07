@@ -63,7 +63,7 @@ sections:
         subtitle: ''
         title_align: left
         content: >
-          ## Committment
+          ## Commitment
 
 
           Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
