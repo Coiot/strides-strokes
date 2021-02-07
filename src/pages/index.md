@@ -67,10 +67,10 @@ sections:
     template: cta_section
     title: Strides & Strokes!
     content: >
-      The inaugural/first public offering Humans 4 Health Inc. fundraising event
-      will be in honor of all of the medical professionals that are dedicated to
-      the research, treatment, and recovery of all patients that have been
-      impacted by a Stroke.
+      The inaugural fundraising event for Humans 4 Health Inc. will be in honor
+      of all of the medical professionals that are dedicated to the research,
+      treatment, and recovery of all patients that have been impacted by a
+      Stroke.
 
 
       We are partnering with the **AdventHealth Foundation | Central Florida**
@@ -88,6 +88,14 @@ sections:
       challenging than one 24 hour event. It is our hope to bring recognition to
       those who challenge themselves to overcome this preventable condition.  We
       also hope to inspire others to try and live healthier lifestyles.
+
+
+      The participants of this 24-hour event will be by invitation only however,
+      we encourage everyone in the community to come and encourage the
+      participants throughout the duration of this event.  We also hope that
+      this event inspires you to take the first step in living a healthier
+      lifestyle...come walk one lap of the many laps completed by the
+      competitors.
     actions:
       - type: action
         template: action
