@@ -60,7 +60,7 @@ sections:
         image_align: left
         image_has_padding: true
       - title: ''
-        subtitle: lorem-ipsum
+        subtitle: ''
         title_align: left
         content: >-
           ## Lorem ipsum
