@@ -25,7 +25,7 @@ sections:
       - type: grid_item
         template: grid_item
         title: Goal 1
-        title_align: left
+        title_align: center
         content: >-
           To share meaningful and accurate information about healthy lifestyles
           that can translate into simple, actionable goals based on science.
