@@ -51,7 +51,8 @@ sections:
         template: grid_item
         title: Goal 3
         title_align: left
-        content: To inspire YOU to be the best you can be.
+        content: |
+          To inspire YOU to be the best you can be and to fight for you!
         content_align: left
         image: images/goal3.svg
         image_position: top
