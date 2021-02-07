@@ -65,7 +65,7 @@ sections:
     align: center
     background_color: none
     actions:
-      - label: lorem-ipsum
+      - label: "H4H was created to build awareness around\nhealth concerns and topics that are driven by our collaborative community of\nfellow humans who have a desire for positive change for themselves, friends,\nand family. We strive to provide content that is meaningful and accurate for\nour community as a safe zone that is friendly, encouraging, and creates\nrealistic goal setting. \n\n\_\n\nThrough our belief of transparency and sharing\nof information, it is our goal to provide our community an opportunity to\ncontribute funds towards expanding our mission. We will also accomplish raising\nfunds through affiliate marketing opportunities that are connected to your\nhealth."
         url: lorem-ipsum
         style: link
         has_icon: false
