@@ -20,7 +20,7 @@ sections:
   - type: grid_section
     template: grid_section
     title: Goals and Commitments
-    subtitle: Goals & Commitments
+    subtitle: ''
     grid_items:
       - type: grid_item
         template: grid_item
