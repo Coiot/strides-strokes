@@ -66,13 +66,13 @@ sections:
           ## Commitment
 
 
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          *   Lorem ipsum
-
-          *   dolor sit amet
+          The founders of H4H have made a commitment to themselves, to live the
+          healthiest lifestyle possible.  Sharing our journey and the knowledge
+          we gain through this process will hopefully motivate you to do the
+          same.  We hope that the community we build is motivational and allows
+          us all to learn from one another.  We believe that our combined energy
+          will make us all successful in achieving our goals and holding each
+          other accountable during this journey!  
         content_align: left
         actions: []
         actions_align: left
