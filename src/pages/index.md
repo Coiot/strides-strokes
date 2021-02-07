@@ -6,8 +6,10 @@ sections:
     title: Humans 4 Health
     subtitle: 'No Judgement, No Limits'
     content: >
-      No Judgements, No Limits.  We're building a community of real people,
-      stories, honest collaboration about a journey to a healthier life.
+      We're building a community of real people, real stories, honest
+      collaboration and information about a journey to a healthier life.  This
+      is a safe zone for friendly collaboration, encouragement and
+      accountability
     image: images/hero.png
     media_position: left
     media_width: fifty
