@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsumFounders
+title: FOunders
 excerpt: lorem-ipsum
 template: page
 ---
