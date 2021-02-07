@@ -59,7 +59,7 @@ sections:
         image_position: top
         image_align: left
         image_has_padding: true
-      - title: About Humans 4 Health
+      - title: ''
         subtitle: lorem-ipsum
         title_align: left
         content: >-
