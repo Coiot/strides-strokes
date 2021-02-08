@@ -1,7 +1,7 @@
 ---
 title: Rick Dandrow
 sections:
-	- type: hero_section
+- type: hero_section
 		template: hero_section
 		title: Rick Dandrow
 		subtitle: The optional subtitle
