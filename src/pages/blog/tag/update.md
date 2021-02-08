@@ -1,7 +1,7 @@
 ---
 title: Updates
 sections:
-- type: hero_section
+  - type: hero_section
 	template: hero_section
 	title: Updates
 	subtitle: The optional subtitle
@@ -9,7 +9,7 @@ sections:
 	padding_top: medium
 	padding_bottom: none
 	background_color: none
-- type: blog_feed_section
+  - type: blog_feed_section
 	template: blog_feed_section
 	blog_feed_cols: three
 	enable_cards: true
@@ -23,7 +23,7 @@ sections:
 	padding_top: small
 	padding_bottom: large
 	has_border: true
-- type: form_section
+  - type: form_section
 	template: form_section
 	title: Inline Form
 	title_align: center
@@ -34,13 +34,13 @@ sections:
 	form_id: subscribeForm
 	form_action: /thank-you
 	form_fields:
-		- type: form_field
-			template: form_field
-			input_type: email
-			name: email
-			label: Email
-			default_value: Your email address
-			is_required: true
+	  - type: form_field
+		template: form_field
+		input_type: email
+		name: email
+		label: Email
+		default_value: Your email address
+		is_required: true
 	submit_label: Subscribe
 	padding_top: medium
 	padding_bottom: medium
