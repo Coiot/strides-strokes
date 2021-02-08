@@ -8,8 +8,8 @@ author: src/data/team/rick-dandrow.yaml
 categories: [src/data/categories/general.yaml]
 tags: [src/data/tags/update.yaml]
 excerpt: ""
-thumb_image: ""
-image: ""
+thumb_image: images/classic/post-1.png
+image: images/classic/post-1.png
 ---
 
 Updating
