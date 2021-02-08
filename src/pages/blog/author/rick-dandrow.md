@@ -1,7 +1,7 @@
 ---
 title: Rick Dandrow
 sections:
-- type: hero_section
+	- type: hero_section
 		template: hero_section
 		title: Rick Dandrow
 		subtitle: The optional subtitle
@@ -9,7 +9,7 @@ sections:
 		padding_top: medium
 		padding_bottom: none
 		background_color: none
-- type: blog_feed_section
+	- type: blog_feed_section
 		template: blog_feed_section
 		blog_feed_cols: three
 		enable_cards: true
@@ -23,7 +23,7 @@ sections:
 		padding_top: small
 		padding_bottom: large
 		has_border: true
-- type: form_section
+	- type: form_section
 		template: form_section
 		title: Inline Form
 		title_align: center
