@@ -3,7 +3,7 @@ title: Rick Dandrow
 sections:
   - type: hero_section
 	title: Rick Dandrow
-	subtitle: The optional subtitle
+	subtitle: subtitle
 	align: center
 	padding_top: medium
 	padding_bottom: none

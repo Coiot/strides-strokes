@@ -3,7 +3,7 @@ title: Update
 sections:
 - type: hero_section
 	title: Update
-	subtitle: The optional subtitle
+	subtitle: subtitle
 	align: center
 	padding_top: medium
 	padding_bottom: none
