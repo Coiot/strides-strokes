@@ -96,13 +96,6 @@
         "label": "General",
         "url": "/blog/category/general",
         "style": "link"
-      },
-      {
-        "type": "action",
-        "template": "action",
-        "label": "Tutorials",
-        "url": "/blog/category/tutorials",
-        "style": "link"
       }
     ],
     "has_tertiary_nav": false,

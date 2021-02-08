@@ -11,8 +11,8 @@ sections:
     background_color: none
   - type: blog_feed_section
     template: blog_feed_section
-    blog_feed_cols: two
-    enable_cards: true
+    blog_feed_cols: one
+    enable_cards: false
     show_recent: false
     show_date: true
     show_categories: true
@@ -21,7 +21,7 @@ sections:
     show_image: true
     padding_top: small
     padding_bottom: large
-    has_border: true
+    has_border: false
   - type: form_section
     template: form_section
     title: Everybody Means Every Body
@@ -44,6 +44,6 @@ sections:
     padding_top: medium
     padding_bottom: medium
     has_border: true
-    background_color: primary
+    background_color: secondary
 template: advanced
 ---
