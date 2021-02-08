@@ -2,17 +2,17 @@
 title: Rick Dandrow
 sections:
   - type: hero_section
- 	 title: Rick Dandrow
-  	subtitle: The optional subtitle
-  	align: center
-  	padding_top: medium
-  	padding_bottom: none
-  	background_color: none
+	title: Rick Dandrow
+	subtitle: The optional subtitle
+	align: center
+	padding_top: medium
+	padding_bottom: none
+	background_color: none
   - type: blog_feed_section
-  	blog_feed_cols: three
-  	enable_cards: true
-  	show_recent: false
-  	author: data/team/rick-dandrow.yaml
+	blog_feed_cols: three
+	enable_cards: true
+	show_recent: false
+	author: data/team/rick-dandrow.yaml
 	show_date: true
 	show_categories: true
 	show_author: true
@@ -22,7 +22,7 @@ sections:
 	padding_bottom: large
 	has_border: true
   - type: form_section
-  	title: Inline Form
+	title: Inline Form
 	title_align: center
 	content: >-
 	  Subscribe to our newsletter to make sure you don't miss anything.
