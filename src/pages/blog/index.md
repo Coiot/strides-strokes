@@ -1,17 +1,17 @@
 ---
-title: Blog
+title: Community
 sections:
   - type: hero_section
     template: hero_section
-    title: Blog
-    subtitle: The optional subtitle
+    title: Community
+    subtitle:
     align: center
     padding_top: medium
     padding_bottom: none
     background_color: none
   - type: blog_feed_section
     template: blog_feed_section
-    blog_feed_cols: three
+    blog_feed_cols: two
     enable_cards: true
     show_recent: false
     show_date: true
@@ -24,9 +24,9 @@ sections:
     has_border: true
   - type: form_section
     template: form_section
-    title: Inline Form
+    title: Everybody Means Every Body
     title_align: center
-    content: Subscribe to our newsletter to make sure you don't miss anything.
+    content: Starting a Movement. Subscribe to our newsletter to make sure you don't miss anything.
     content_align: center
     form_position: bottom
     form_layout: inline
@@ -44,6 +44,6 @@ sections:
     padding_top: medium
     padding_bottom: medium
     has_border: true
-    background_color: secondary
+    background_color: primary
 template: advanced
 ---

@@ -59,7 +59,7 @@ sections:
   - type: cta_section
     template: cta_section
     title: Everybody Means Every Body
-    content: STARTING A MOVEMENT
+    content:
     actions:
       - type: action
         template: action
@@ -70,7 +70,30 @@ sections:
     padding_top: medium
     padding_bottom: medium
     has_border: false
+    background_color: secondary
+  - type: form_section
+    template: form_section
+    title: Everybody Means Every Body
+    title_align: center
+    content: Starting a Movement. Subscribe to our newsletter to make sure you don't miss anything.
+    content_align: center
+    form_position: bottom
+    form_layout: inline
+    form_id: subscribeForm
+    form_action: /thank-you
+    form_fields:
+      - type: form_field
+        template: form_field
+        input_type: email
+        name: email
+        label: Email
+        default_value: Your email address
+        is_required: true
+    submit_label: Subscribe
+    padding_top: medium
+    padding_bottom: medium
+    has_border: true
     background_color: primary
 template: advanced
-excerpt: ''
+excerpt: ""
 ---
