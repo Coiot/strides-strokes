@@ -78,4 +78,3 @@ fields:
     required: true
 pages:
 - src/pages/blog/website-launch.md
-- src/pages/test.md
