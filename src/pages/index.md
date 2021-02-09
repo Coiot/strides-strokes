@@ -203,6 +203,33 @@ sections:
     grid_gap_horiz: medium
     align: center
     background_color: none
+  - type: blog_feed_section
+    template: blog_feed_section
+    blog_feed_cols: three
+    enable_cards: false
+    show_recent: true
+    show_date: true
+    show_categories: true
+    show_author: true
+    show_excerpt: true
+    show_image: true
+    padding_top: medium
+    padding_bottom: small
+    has_border: false
+    title: Posts from the Community
+    subtitle: Latest Blogs
+    actions: []
+    recent_count: 3
+    author: ""
+    category: ""
+    tag: ""
+    align: center
+    background_color: secondary
+    background_image: ""
+    background_image_opacity:
+    background_image_size: ""
+    background_image_position: ""
+    background_image_repeat: ""
   - type: form_section
     template: form_section
     title: Everybody Means Every Body
@@ -225,7 +252,7 @@ sections:
     padding_top: medium
     padding_bottom: medium
     has_border: true
-    background_color: secondary
+    background_color: primary
 template: advanced
 excerpt: ""
 ---

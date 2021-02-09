@@ -25,13 +25,6 @@
       {
         "type": "action",
         "template": "action",
-        "label": "Founders",
-        "url": "/founders",
-        "style": "link"
-      },
-      {
-        "type": "action",
-        "template": "action",
         "label": "Community",
         "url": "/blog/",
         "style": "link"

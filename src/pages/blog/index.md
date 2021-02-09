@@ -4,11 +4,11 @@ sections:
   - type: hero_section
     template: hero_section
     title: Community
-    subtitle: ""
+    subtitle: "Connect & Grow"
     align: center
     padding_top: medium
     padding_bottom: none
-    background_color: none
+    background_color: secondary
     content: ""
     actions: []
     image: ""
@@ -48,6 +48,79 @@ sections:
     background_image_size: ""
     background_image_position: ""
     background_image_repeat: ""
+  - type: grid_section
+    template: grid_section
+    title: Support Links
+    subtitle: Reach our Broad Network
+    content: ""
+    grid_items:
+      - type: grid_item
+        template: grid_item
+        title: Group Name
+        title_align: left
+        content: Description
+        content_align: left
+        image: images/logo-8.svg
+        image_position: top
+        image_align: center
+        image_has_padding: true
+      - type: grid_item
+        template: grid_item
+        title: Group Name
+        title_align: left
+        content: Description
+        content_align: left
+        image: images/logo-8.svg
+        image_position: top
+        image_align: center
+        image_has_padding: true
+      - type: grid_item
+        template: grid_item
+        title: Group Name
+        title_align: left
+        content: Description
+        content_align: left
+        image: images/logo-8.svg
+        image_position: top
+        image_align: center
+        image_has_padding: true
+      - type: grid_item
+        template: grid_item
+        title: Group Name
+        title_align: left
+        content: Description
+        content_align: left
+        image: images/logo-8.svg
+        image_position: top
+        image_align: center
+        image_has_padding: true
+      - type: grid_item
+        template: grid_item
+        title: Group Name
+        title_align: left
+        content: Description
+        content_align: left
+        image: images/logo-8.svg
+        image_position: top
+        image_align: center
+        image_has_padding: true
+      - type: grid_item
+        template: grid_item
+        title: Group Name
+        title_align: left
+        content: Description
+        content_align: left
+        image: images/logo-8.svg
+        image_position: top
+        image_align: center
+        image_has_padding: true
+    grid_cols: three
+    grid_gap_vert: small
+    grid_gap_horiz: medium
+    enable_cards: true
+    align: center
+    background_color: secondary
+    actions: []
   - type: form_section
     template: form_section
     title: Everybody Means Every Body
@@ -73,7 +146,7 @@ sections:
     padding_top: medium
     padding_bottom: medium
     has_border: true
-    background_color: secondary
+    background_color: primary
     subtitle: ""
     form_width: ""
     enable_card: false
