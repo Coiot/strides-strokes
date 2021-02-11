@@ -169,6 +169,21 @@ sections:
         media_width: fourty
     feature_padding_vert: small
     background_color: secondary
+  - type: cta_section
+    template: cta_section
+    title: Lending a Helping Hand
+    content: There are many organizations looking out to help us be healthy and stay in peak fitness, but they need our help. There are many ways we can help prevent a tragedy and keep everyone safe, and our network of medical professionals are there to make sure we can understand how to live through a deliberating health condition and come out on top to be in our best form yet. Together we
+    actions:
+      - type: action
+        template: action
+        label: Donate today and join the Movement!
+        url: /donations
+        style: primary
+    align: left
+    padding_top: medium
+    padding_bottom: medium
+    has_border: true
+    background_color: secondary
   - type: grid_section
     template: grid_section
     title: Strides & Strokes
