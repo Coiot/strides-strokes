@@ -14,6 +14,8 @@ const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY);
 
 import components, { Layout } from "../components/index";
 
+import { htmlToReact } from "../utils";
+
 // this minimal GraphQL query ensures that when 'gatsby develop' is running,
 // any changes to content files are reflected in browser
 export const query = graphql`
@@ -28,7 +30,19 @@ export default class Donations extends React.Component {
   render() {
     return (
       <Layout {...this.props}>
-        <Checkout />
+        <article className="page py-5 py-sm-6">
+          <div className="container container--medium">
+            <header className="page__header">
+              <h1 className="page__title">
+                {_.get(this.props, "pageContext.frontmatter.title", null)}
+              </h1>
+            </header>
+            <div className="page__body text-block">
+              {htmlToReact(_.get(this.props, "pageContext.html", null))}
+            </div>
+            <Checkout />
+          </div>
+        </article>
       </Layout>
     );
   }

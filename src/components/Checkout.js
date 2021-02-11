@@ -3,14 +3,17 @@ import ReactDOM from "react-dom";
 import { loadStripe } from "@stripe/stripe-js";
 
 const buttonStyles = {
-  fontSize: "13px",
+  fontSize: "0.88889em",
+  fontWeight: "800",
   textAlign: "center",
-  color: "#000",
-  padding: "2px 6px",
+  color: "#fff",
+  padding: "0.75em 1.875em",
   boxShadow: "2px 5px 10px rgba(0,0,0,.1)",
-  backgroundColor: "rgb(255, 178, 56)",
-  borderRadius: "6px",
+  backgroundColor: "#f14842",
+  border: "0",
+  borderRadius: "5px",
   letterSpacing: "1.5px",
+  transition: "0.25s ease",
 };
 
 const buttonDisabledStyles = {
