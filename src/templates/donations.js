@@ -2,9 +2,9 @@ import React from "react";
 import _ from "lodash";
 import { graphql } from "gatsby";
 
-import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import App from "../components/App";
+
+import Checkout from "../components/Checkout";
 
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
@@ -28,25 +28,7 @@ export default class Donations extends React.Component {
   render() {
     return (
       <Layout {...this.props}>
-        <Elements stripe={stripePromise}>
-          <CartProvider
-            mode="checkout-session"
-            stripe={stripePromise}
-            currency="USD"
-          >
-            <Router>
-              <header>
-                <Link to="/">Serverless Shopping Cart & Mobile Payments</Link>
-              </header>
-
-              <Switch>
-                <Route path="/">
-                  <App />
-                </Route>
-              </Switch>
-            </Router>
-          </CartProvider>
-        </Elements>
+        <Checkout />
       </Layout>
     );
   }

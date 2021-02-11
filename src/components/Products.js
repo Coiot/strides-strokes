@@ -5,6 +5,7 @@ import donation from "../data/donation.json";
 import { useShoppingCart, formatCurrencyString } from "use-shopping-cart";
 
 const Donation = () => {
+  const { addItem, removeItem } = useShoppingCart();
   return (
     <section className="product">
       {donation.map((donation) => (
@@ -17,6 +18,8 @@ const Donation = () => {
               currency: donation.currency,
             })}
           </p>
+          <button onClick={() => addItem(donation)}>Pledge</button>
+          <button onClick={() => removeItem(donation.sku)}>Remove</button>
         </div>
       ))}
     </section>

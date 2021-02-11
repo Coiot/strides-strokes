@@ -5,11 +5,11 @@
  * @see https://stripe.com/docs/payments/checkout/one-time
  */
 
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: '2020-03-02',
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY, {
+  apiVersion: "2020-03-02",
   maxNetworkRetries: 2,
 });
-const validateCartItems = require('use-shopping-cart/src/serverUtil')
+const validateCartItems = require("use-shopping-cart/src/serverUtil")
   .validateCartItems;
 
 /*
@@ -20,7 +20,7 @@ const validateCartItems = require('use-shopping-cart/src/serverUtil')
  * The important thing is that the product info is loaded from somewhere trusted
  * so you know the pricing information is accurate.
  */
-const inventory = require('./data/products.json');
+const inventory = require("./data/products.json");
 
 exports.handler = async (event) => {
   try {
@@ -29,11 +29,11 @@ exports.handler = async (event) => {
     const line_items = validateCartItems(inventory, cartItems);
 
     const session = await stripe.checkout.sessions.create({
-      mode: 'payment',
-      payment_method_types: ['card'],
-      billing_address_collection: 'auto',
+      mode: "payment",
+      payment_method_types: ["card"],
+      billing_address_collection: "auto",
       shipping_address_collection: {
-        allowed_countries: ['US', 'CA'],
+        allowed_countries: ["US", "CA"],
       },
 
       /*
@@ -48,11 +48,10 @@ exports.handler = async (event) => {
         ...line_items,
         {
           price_data: {
-            unit_amount: 350,
-            currency: 'USD',
+            currency: "USD",
             product_data: {
-              name: 'Shipping fee',
-              description: 'Handling and shipping fee for global delivery',
+              name: "Shipping fee",
+              description: "Handling and shipping fee for global delivery",
             },
           },
           quantity: 1,

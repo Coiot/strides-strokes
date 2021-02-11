@@ -4,20 +4,14 @@
  *
  * @see https://stripe.com/docs/payments/handling-payment-events
  */
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: '2020-03-02',
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY, {
+  apiVersion: "2020-03-02",
   maxNetworkRetries: 2,
 });
 
 exports.handler = async ({ body, headers }) => {
   try {
-    const event = stripe.webhooks.constructEvent(
-      body,
-      headers['stripe-signature'],
-      process.env.STRIPE_WEBHOOK_SECRET
-    );
-
-    if (event.type === 'payment_intent.succeeded') {
+    if (event.type === "payment_intent.succeeded") {
       const paymentIntent = event.data.object;
       const items = JSON.parse(paymentIntent.metadata.items);
       const shippingDetails = paymentIntent.shipping;

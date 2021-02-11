@@ -40,7 +40,7 @@
         "type": "action",
         "template": "action",
         "label": "Donate",
-        "url": "/",
+        "url": "/donations",
         "style": "primary"
       }
     ],
