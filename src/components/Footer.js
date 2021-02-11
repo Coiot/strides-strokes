@@ -1,20 +1,9 @@
 import React from "react";
 import _ from "lodash";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 import { classNames, Link, withPrefix, htmlToReact } from "../utils";
 import FooterMenu from "./FooterMenu";
 import Icon from "./Icon";
-
-import App from "./App";
-import Success from "./Success";
-
-import { Elements } from "@stripe/react-stripe-js";
-import { loadStripe } from "@stripe/stripe-js";
-import { CartProvider } from "use-shopping-cart";
-
-const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY);
 
 export default class Footer extends React.Component {
   render() {
@@ -291,21 +280,6 @@ export default class Footer extends React.Component {
               </div>
             </div>
           )}
-          <Elements stripe={stripePromise}>
-            <CartProvider
-              mode="checkout-session"
-              stripe={stripePromise}
-              currency="USD"
-            >
-              <Router>
-                <Switch>
-                  <Route path="/">
-                    <App />
-                  </Route>
-                </Switch>
-              </Router>
-            </CartProvider>
-          </Elements>
         </footer>
       </React.Fragment>
     );
