@@ -1,28 +1,26 @@
 import React from "react";
 
-import products from "../data/products.json";
+import donation from "../data/donation.json";
+
 import { useShoppingCart, formatCurrencyString } from "use-shopping-cart";
 
-const Products = () => {
-  const { addItem, removeItem } = useShoppingCart();
-
+const Donation = () => {
   return (
-    <section className="products">
-      {products.map((product) => (
-        <div key={product.sku} className="product">
-          <img src={product.image} alt={product.name} />
-          <h2>{product.name}</h2>
+    <section className="product">
+      {donation.map((donation) => (
+        <div key={donation.sku} className="donation">
+          <img src={donation.image} alt={donation.name} />
+          <h2>{donation.name}</h2>
           <p className="price">
             {formatCurrencyString({
-              value: product.price,
-              currency: product.currency,
+              value: donation.price,
+              currency: donation.currency,
             })}
           </p>
-          <button onClick={() => addItem(product)}>Pledge</button>
         </div>
       ))}
     </section>
   );
 };
 
-export default Products;
+export default Donation;
