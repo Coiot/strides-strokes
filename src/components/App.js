@@ -5,7 +5,6 @@ import Products from "./Products";
 function App() {
   return (
     <main>
-      <CartSummary />
       <Products />
     </main>
   );
