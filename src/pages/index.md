@@ -4,7 +4,7 @@ sections:
   - type: hero_section
     template: hero_section
     title: Humans 4 Health
-    subtitle: "No Judgement, No Limits"
+    subtitle: 'No Judgement, No Limits'
     content: >
       We're building a community of real people, real stories, honest
       collaboration and information about a journey to a healthier life.  This
@@ -20,15 +20,15 @@ sections:
   - type: grid_section
     template: grid_section
     title: Goals and Commitments
-    subtitle: ""
+    subtitle: ''
     content: >-
       The founders of H4H have made a commitment to themselves, to live the
-      healthiest lifestyle possible.  Sharing our journey and the knowledge
-      we gain through this process will hopefully motivate you to do the
-      same.  We hope that the community we build is motivational and allows
-      us all to learn from one another.  We believe that our combined energy
-      will make us all successful in achieving our goals and holding each
-      other accountable during this journey!
+      healthiest lifestyle possible.  Sharing our journey and the knowledge we
+      gain through this process will hopefully motivate you to do the same.  We
+      hope that the community we build is motivational and allows us all to
+      learn from one another.  We believe that our combined energy will make us
+      all successful in achieving our goals and holding each other accountable
+      during this journey!
     grid_items:
       - type: grid_item
         template: grid_item
@@ -100,8 +100,9 @@ sections:
       a week impact a stroke has on the person, their families, friends and
       ultimately their life.  Recovery and rehabilitation is far more
       challenging than one 24 hour event. It is our hope to bring recognition to
-      those who challenge themselves to overcome this preventable condition.  We
-      also hope to inspire others to try and live healthier lifestyles.
+      those who challenge themselves to overcome this preventable condition. 
+      Through this event, we also hope to inspire others to try and live
+      healthier lifestyles.
 
 
       The participants of this 24-hour event will be by invitation only however,
@@ -138,7 +139,7 @@ sections:
         title: >-
           I have a personal connection to this initiative.  I lost my mother to
           stroke complications in May of 2018.
-        subtitle: "Rick Dandrow, Founder of Humans4Health"
+        subtitle: 'Rick Dandrow, Founder of Humans4Health'
         content: >
           My Mother, Mary Ann, had suffered some minor stroke episodes leading
           up to the final brain injury in May 2018 and days later she was gone.
@@ -207,7 +208,9 @@ sections:
     template: form_section
     title: Everybody Means Every Body
     title_align: center
-    content: Starting a Movement. Subscribe to our newsletter to make sure you don't miss anything.
+    content: >-
+      Starting a Movement. Subscribe to our newsletter to make sure you don't
+      miss anything.
     content_align: center
     form_position: bottom
     form_layout: inline
@@ -227,5 +230,5 @@ sections:
     has_border: true
     background_color: secondary
 template: advanced
-excerpt: ""
+excerpt: ''
 ---
