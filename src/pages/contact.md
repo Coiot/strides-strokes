@@ -28,10 +28,13 @@ sections:
 
       If you are interested in partnering with Humans 4 Health Inc. in their
       first event to raise funds for the AdventHealth Foundation | Central
-      Florida on behalf of the the AdventHealth Neuroscience Institute to raise
-      funds and further innovation in patient care, research, and technology for
-      people impacted by strokes.  Please share your contact information with us
-      and we will be in contact with you shortly.
+      Florida, Please share your contact information with us and we will be in
+      contact with you shortly.
+
+
+      The proceeds of this event will support AdventHealth's Neuroscience
+      Institute to raise funds which will provide funds for further innovation
+      in patient care, research, and technology for people impacted by strokes.
 
 
       ### Other Inquiries
