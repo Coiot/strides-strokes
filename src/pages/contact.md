@@ -33,8 +33,8 @@ sections:
 
 
       The proceeds of this event will support AdventHealth's Neuroscience
-      Institute to raise funds which will provide funds for further innovation
-      in patient care, research, and technology for people impacted by strokes.
+      Institute to further innovation in patient care, research, and technology
+      for people impacted by strokes.
 
 
       ### Other Inquiries
