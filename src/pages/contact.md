@@ -9,27 +9,29 @@ sections:
     padding_top: small
     padding_bottom: none
     background_color: none
-    content: ""
+    content: ''
     actions: []
-    image: ""
-    video_embed_html: ""
-    media_position: ""
-    media_width: ""
+    image: ''
+    video_embed_html: ''
+    media_position: ''
+    media_width: ''
     has_border: false
-    background_image: ""
-    background_image_size: ""
-    background_image_position: ""
-    background_image_repeat: ""
+    background_image: ''
+    background_image_size: ''
+    background_image_position: ''
+    background_image_repeat: ''
   - type: form_section
     template: form_section
-    content: >-
+    content: >
       ### Partnering & Sponsorships
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-      ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-      fringilla, fringilla.
+
+      If you are interested in partnering with Humans 4 Health Inc. in their
+      first event to raise funds for AdventHealth
+
 
       ### Other Inquiries
+
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
       ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
@@ -86,21 +88,21 @@ sections:
           I understand that this form is storing my submitted information so I
           can be contacted.
         is_required: true
-        default_value: ""
+        default_value: ''
         options: []
     submit_label: Send Message
     align_vert: top
     padding_top: medium
     padding_bottom: medium
     background_color: primary
-    title: ""
-    subtitle: ""
-    title_align: ""
+    title: ''
+    subtitle: ''
+    title_align: ''
     has_border: false
-    background_image: ""
-    background_image_size: ""
-    background_image_position: ""
-    background_image_repeat: ""
+    background_image: ''
+    background_image_size: ''
+    background_image_position: ''
+    background_image_repeat: ''
 template: advanced
 excerpt: Get in touch with the Team
 ---
