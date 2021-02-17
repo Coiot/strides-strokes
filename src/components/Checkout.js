@@ -14,6 +14,7 @@ const buttonStyles = {
   borderRadius: "5px",
   letterSpacing: "1.5px",
   transition: "0.25s ease",
+  margin: "1.5em 0 0 0",
 };
 
 const buttonDisabledStyles = {
@@ -76,7 +77,6 @@ const Checkout = () => {
 
   return (
     <div>
-      <input type="text" onChange={onChangeText} value={inputText} />
       <input type="number" onChange={onChangeHandler} value={inputValue} />
       <button
         disabled={loading}
@@ -85,7 +85,7 @@ const Checkout = () => {
         }
         onClick={redirectToCheckout}
       >
-        Donate
+        Proceed
       </button>
     </div>
   );

@@ -4,4 +4,6 @@ excerpt:
 template: donations
 ---
 
-Testing
+Your contribution directly goes to our partner organizations to raise funds and further innovation in patient care, research, and technology for people impacted by strokes.
+
+Simply type your donation amount below and click Proceed.
