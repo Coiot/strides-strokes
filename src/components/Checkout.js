@@ -63,8 +63,8 @@ const Checkout = () => {
           quantity: quantity,
         },
       ],
-      successUrl: `http://localhost:8000/thank-you-donation/`,
-      cancelUrl: `http://localhost:8000/`,
+      successUrl: `https://humans4health.netlify.app/thank-you-donation/`,
+      cancelUrl: `https://humans4health.netlify.app/`,
       submitType: "donate",
     });
 
