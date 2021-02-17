@@ -6,9 +6,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Checkout from "../components/Checkout";
 
-import { Elements } from "@stripe/react-stripe-js";
+// import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
-import { CartProvider } from "use-shopping-cart";
+// import { CartProvider } from "use-shopping-cart";
 
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY);
 

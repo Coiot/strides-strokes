@@ -25,7 +25,7 @@ let stripePromise;
 const getStripe = () => {
   if (!stripePromise) {
     stripePromise = loadStripe(
-      "pk_live_51IGRtjFE8xsP1GiTLfkRMLZ4Ii0MBgWq2MhMtjf2shKH1cNoOQZmiSxcRX1lThUFYooTKkJK3JWv4d0ZY0QCNDB800XYZAVPRA"
+      "pk_test_51IGRtjFE8xsP1GiTQZgQbL1IMYikfqZFnx5YipRPx9jHCikMEpWbpN5hdaqxH97d1RkCYZY6YuslLuns1KjBm7ng00prqfljz5"
     );
   }
   return stripePromise;
@@ -50,28 +50,29 @@ const Checkout = () => {
 
   const text = inputText;
 
-  const redirectToCheckout = async (event) => {
+  const handleCheckout = async (event) => {
     event.preventDefault();
     setLoading(true);
 
-    const stripe = await getStripe();
-    const { error } = await stripe.redirectToCheckout({
-      mode: "payment",
-      lineItems: [
-        {
-          price: "price_1IIo5IFE8xsP1GiTIeBjrCPc",
-          quantity: quantity,
+    const { sessionId } = await fetch(
+      "../../functions/create-checkout-session",
+      {
+        method: "post",
+        headers: {
+          "Content-Type": "application/json",
         },
-      ],
-      successUrl: `http://localhost:8000/thank-you-donation/`,
-      cancelUrl: `http://localhost:8000/`,
-      submitType: "donate",
-    });
+        body: JSON.stringify(cartDetails),
+      }
+    )
+      .then((res) => {
+        return res.json();
+      })
+      .catch((error) => {
+        console.log(error);
+        setLoading(false);
+      });
 
-    if (error) {
-      console.warn("Phakchen:", error);
-      setLoading(false);
-    }
+    redirectToCheckout({ sessionId });
   };
 
   return (
@@ -83,7 +84,7 @@ const Checkout = () => {
         style={
           loading ? { ...buttonStyles, ...buttonDisabledStyles } : buttonStyles
         }
-        onClick={redirectToCheckout}
+        onClick={handleCheckout}
       >
         Donate
       </button>
