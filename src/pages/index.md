@@ -77,8 +77,8 @@ sections:
     align: center
     background_color: none
     actions: []
-  - type: cta_section
-    template: cta_section
+  - type: hero_section
+    template: hero_section
     title: Strides & Strokes!
     content: >
       The inaugural fundraising event for Humans 4 Health Inc. will be in honor
@@ -105,7 +105,7 @@ sections:
       healthier lifestyles.
 
 
-      The participants of this 24-hour event will be by invitation only however,
+      The participants of this 24-hour event will be by invitation only; however,
       we encourage everyone in the community to come and encourage the
       participants throughout the duration of this event.  We also hope that
       this event inspires you to take the first step in living a healthier
@@ -126,11 +126,11 @@ sections:
         url: /contact
         style: primary
     actions_position: right
-    actions_width: fourty
+    actions_width: fifty
     align: left
-    padding_top: large
-    padding_bottom: large
-    background_color: primary
+    padding_top: small
+    padding_bottom: small
+    background_color: secondary
   - type: features_section
     template: features_section
     features:
@@ -143,8 +143,14 @@ sections:
         content: >
           My Mother, Mary Ann, had suffered some minor stroke episodes leading
           up to the final brain injury in May 2018 and days later she was gone.
-
-
+        image: images/home_feature_2.png
+        media_position: right
+        media_width: fourty
+      - type: feature
+        template: feature
+        title:
+        subtitle:
+        content: >
           At the end of that same year, I had a close friend suffer a stroke. 
           He is two years younger than I, and continues to this day, to try and
           regain the lifestyle he once had.  Two years later, he continues to
@@ -165,11 +171,13 @@ sections:
 
           James's care has been provided by the medical professionals of
           **AdventHealth Central Florida**.
-        image: images/home_feature_1.jpg
-        media_position: right
+        image: images/home_feature_3.jpg
+        media_position: left
         media_width: fourty
-    feature_padding_vert: small
-    background_color: secondary
+    feature_padding_vert: large
+    background_color: none
+    section_padding_top: small
+    section_padding_bottom: small
   - type: cta_section
     template: cta_section
     title: Lending a Helping Hand
@@ -184,7 +192,7 @@ sections:
     padding_top: medium
     padding_bottom: medium
     has_border: true
-    background_color: none
+    background_color: secondary
   # - type: grid_section
   #   template: grid_section
   #   title: Strides & Strokes
