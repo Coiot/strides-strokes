@@ -75,6 +75,9 @@ sections:
   - type: features_section
     template: features_section
     title: Founder's Message
+    feature_padding_vert: small
+    section_padding_top: small
+    section_padding_bottom: small
     features:
       - type: feature
         template: feature
@@ -126,9 +129,6 @@ sections:
         image:
         media_position: left
         media_width: fourty
-      feature_padding_vert: small
-      section_padding_top: small
-      section_padding_bottom: small
   - type: form_section
     template: form_section
     title: Everybody Means Every Body
