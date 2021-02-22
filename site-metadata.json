@@ -25,13 +25,6 @@
       {
         "type": "action",
         "template": "action",
-        "label": "Founders",
-        "url": "/founders",
-        "style": "link"
-      },
-      {
-        "type": "action",
-        "template": "action",
         "label": "Community",
         "url": "/blog/",
         "style": "link"
@@ -47,7 +40,7 @@
         "type": "action",
         "template": "action",
         "label": "Donate",
-        "url": "/",
+        "url": "/donations",
         "style": "primary"
       }
     ],
@@ -96,13 +89,6 @@
         "label": "General",
         "url": "/blog/category/general",
         "style": "link"
-      },
-      {
-        "type": "action",
-        "template": "action",
-        "label": "Tutorials",
-        "url": "/blog/category/tutorials",
-        "style": "link"
       }
     ],
     "has_tertiary_nav": false,
@@ -129,7 +115,7 @@
         "type": "action",
         "template": "action",
         "label": "Facebook",
-        "url": "https://facebook.com/",
+        "url": "https://www.facebook.com/Humans.4.Health",
         "style": "link",
         "has_icon": true,
         "icon": "facebook",
@@ -140,7 +126,7 @@
         "type": "action",
         "template": "action",
         "label": "Instagram",
-        "url": "https://instagram.com/",
+        "url": "https://www.instagram.com/humans.4.health/",
         "style": "link",
         "has_icon": true,
         "icon": "instagram",
@@ -151,7 +137,7 @@
         "type": "action",
         "template": "action",
         "label": "Twitter",
-        "url": "https://twitter.com/",
+        "url": "https://twitter.com/Humans4healthI",
         "style": "link",
         "has_icon": true,
         "icon": "twitter",
@@ -162,7 +148,7 @@
         "type": "action",
         "template": "action",
         "label": "LinkedIn",
-        "url": "https://www.youtube.com/",
+        "url": "https://www.youtube.com/channel/UCuMaXIqkLjQDwh1yvXkuKdw",
         "style": "link",
         "has_icon": true,
         "icon": "youtube",
@@ -173,7 +159,7 @@
         "type": "action",
         "template": "action",
         "label": "LinkedIn",
-        "url": "https://vimeo.com/",
+        "url": "https://vimeo.com/user130773104",
         "style": "link",
         "has_icon": true,
         "icon": "vimeo",

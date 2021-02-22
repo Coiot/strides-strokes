@@ -4,7 +4,7 @@ sections:
   - type: hero_section
     template: hero_section
     title: Humans 4 Health
-    subtitle: 'No Judgement, No Limits'
+    subtitle: "No Judgement, No Limits"
     content: >
       We're building a community of real people, real stories, honest
       collaboration and information about a journey to a healthier life.  This
@@ -20,7 +20,7 @@ sections:
   - type: grid_section
     template: grid_section
     title: Goals and Commitments
-    subtitle: ''
+    subtitle: ""
     content: >-
       The founders of H4H have made a commitment to themselves, to live the
       healthiest lifestyle possible.  Sharing our journey and the knowledge we
@@ -77,8 +77,8 @@ sections:
     align: center
     background_color: none
     actions: []
-  - type: cta_section
-    template: cta_section
+  - type: hero_section
+    template: hero_section
     title: Strides & Strokes!
     content: >
       The inaugural fundraising event for Humans 4 Health Inc. will be in honor
@@ -105,32 +105,32 @@ sections:
       healthier lifestyles.
 
 
-      The participants of this 24-hour event will be by invitation only however,
+      The participants of this 24-hour event will be by invitation only; however,
       we encourage everyone in the community to come and encourage the
       participants throughout the duration of this event.  We also hope that
       this event inspires you to take the first step in living a healthier
       lifestyle...come walk one lap of the many laps completed by the
       competitors.
     actions:
-      - type: action
-        template: action
-        label: Save the Date
-        url: /
-        style: secondary
-        has_icon: true
-        icon: arrow-right
-        icon_position: right
+      # - type: action
+      #   template: action
+      #   label: Save the Date
+      #   url: /
+      #   style: secondary
+      #   has_icon: true
+      #   icon: arrow-right
+      #   icon_position: right
       - type: action
         template: action
         label: Sign Up!
-        url: /
+        url: /contact
         style: primary
     actions_position: right
-    actions_width: fourty
+    actions_width: fifty
     align: left
-    padding_top: large
-    padding_bottom: large
-    background_color: primary
+    padding_top: small
+    padding_bottom: small
+    background_color: secondary
   - type: features_section
     template: features_section
     features:
@@ -139,12 +139,18 @@ sections:
         title: >-
           I have a personal connection to this initiative.  I lost my mother to
           stroke complications in May of 2018.
-        subtitle: 'Rick Dandrow, Founder of Humans4Health'
+        subtitle: "Rick Dandrow, Founder of Humans4Health"
         content: >
           My Mother, Mary Ann, had suffered some minor stroke episodes leading
           up to the final brain injury in May 2018 and days later she was gone.
-
-
+        image: images/home_feature_2.png
+        media_position: right
+        media_width: fourty
+      - type: feature
+        template: feature
+        title:
+        subtitle:
+        content: >
           At the end of that same year, I had a close friend suffer a stroke. 
           He is two years younger than I, and continues to this day, to try and
           regain the lifestyle he once had.  Two years later, he continues to
@@ -165,52 +171,96 @@ sections:
 
           James's care has been provided by the medical professionals of
           **AdventHealth Central Florida**.
-        image: images/home_feature_1.jpg
-        media_position: right
+        image: images/home_feature_3.jpg
+        media_position: left
         media_width: fourty
-    feature_padding_vert: small
-    background_color: secondary
-  - type: grid_section
-    template: grid_section
-    title: Strides & Strokes
-    subtitle: Sponsor Grid
-    grid_items:
-      - type: grid_item
-        template: grid_item
-        image: images/logo-8.svg
-        image_align: center
-      - type: grid_item
-        template: grid_item
-        image: images/logo-8.svg
-        image_align: center
-      - type: grid_item
-        template: grid_item
-        image: images/logo-8.svg
-        image_align: center
-      - type: grid_item
-        template: grid_item
-        image: images/logo-8.svg
-        image_align: center
-      - type: grid_item
-        template: grid_item
-        image: images/logo-8.svg
-        image_align: center
-      - type: grid_item
-        template: grid_item
-        image: images/logo-8.svg
-        image_align: center
-    grid_cols: three
-    grid_gap_vert: medium
-    grid_gap_horiz: medium
-    align: center
+    feature_padding_vert: large
     background_color: none
+    section_padding_top: small
+    section_padding_bottom: small
+  - type: cta_section
+    template: cta_section
+    title: Lending a Helping Hand
+    content: There are many organizations looking out to help us be healthy and stay in peak fitness, but they need our help. There are many ways we can help prevent a tragedy and keep everyone safe, and our network of medical professionals are there to make sure we can understand how to live through a deliberating health condition and come out on top to be in our best form yet.
+    actions:
+      - type: action
+        template: action
+        label: Donate today and help our mission!
+        url: /donations
+        style: primary
+    align: left
+    padding_top: medium
+    padding_bottom: medium
+    has_border: true
+    background_color: secondary
+  # - type: grid_section
+  #   template: grid_section
+  #   title: Strides & Strokes
+  #   subtitle: Sponsor Grid
+  #   grid_items:
+  #     - type: grid_item
+  #       template: grid_item
+  #       image: images/logo-8.svg
+  #       image_align: center
+  #     - type: grid_item
+  #       template: grid_item
+  #       image: images/logo-8.svg
+  #       image_align: center
+  #     - type: grid_item
+  #       template: grid_item
+  #       image: images/logo-8.svg
+  #       image_align: center
+  #     - type: grid_item
+  #       template: grid_item
+  #       image: images/logo-8.svg
+  #       image_align: center
+  #     - type: grid_item
+  #       template: grid_item
+  #       image: images/logo-8.svg
+  #       image_align: center
+  #     - type: grid_item
+  #       template: grid_item
+  #       image: images/logo-8.svg
+  #       image_align: center
+  #   grid_cols: three
+  #   grid_gap_vert: medium
+  #   grid_gap_horiz: medium
+  #   align: center
+  #   background_color: none
+  # - type: blog_feed_section
+  #   template: blog_feed_section
+  #   blog_feed_cols: three
+  #   enable_cards: false
+  #   show_recent: true
+  #   show_date: true
+  #   show_categories: true
+  #   show_author: true
+  #   show_excerpt: true
+  #   show_image: true
+  #   padding_top: medium
+  #   padding_bottom: small
+  #   has_border: false
+  #   title: Posts from the Community
+  #   subtitle: Latest Blogs
+  #   actions: []
+  #   recent_count: 3
+  #   author: ""
+  #   category: ""
+  #   tag: ""
+  #   align: center
+  #   background_color: secondary
+  #   background_image: ""
+  #   background_image_opacity:
+  #   background_image_size: ""
+  #   background_image_position: ""
+  #   background_image_repeat: ""
   - type: form_section
     template: form_section
     title: Everybody Means Every Body
     title_align: center
     content: >-
       Starting a Movement. Subscribe to our newsletter to make sure you don't
-      miss anything.
+      miss anything. No inbox spam, we'll only keep you informed of the event and our mission.
     content_align: center
     form_position: bottom
     form_layout: inline
@@ -228,7 +278,7 @@ sections:
     padding_top: medium
     padding_bottom: medium
     has_border: true
-    background_color: secondary
+    background_color: primary
 template: advanced
-excerpt: ''
+excerpt: ""
 ---

@@ -76,3 +76,5 @@ fields:
   default: post
   config:
     required: true
+pages:
+- src/pages/blog/website-launch.md
