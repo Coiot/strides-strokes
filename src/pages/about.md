@@ -64,7 +64,7 @@ sections:
     actions:
       - type: action
         template: action
-        label: Donate today and join the Movement!
+        label: Donate today and help our mission!
         url: /donations
         style: primary
     align: left
