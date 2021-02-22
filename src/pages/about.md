@@ -19,7 +19,7 @@ sections:
           conducive to sharing information around the promotion of healthy
           lifestyles through education, awareness, and engagement. <small>*501
           (3) C status pending</small>
-        image: images/logo.png
+        image:
         media_position: right
         media_width: fifty
       - type: feature
@@ -33,7 +33,7 @@ sections:
           realistic goal setting.
         image: images/about2.jpg
         media_position: left
-        media_width: fourty
+        media_width: thirty-three
       - type: feature
         template: feature
         content: >-
@@ -42,7 +42,7 @@ sections:
           towards expanding our mission. We will also accomplish raising funds
           through affiliate marketing opportunities that are connected to your
           health.
-        image: images/logo.png
+        image:
         media_position: right
         media_width: fifty
       - type: feature
@@ -53,7 +53,7 @@ sections:
           href="https://www.adventhealthneuroinstitute.com/">AdventHealth
           Neuroscience Institute</a> to raise funds and further innovation in
           patient care, research, and technology for people impacted by strokes.
-        media_position: left
+        media_position: right
         media_width: fourty
         actions: []
         image: /images/BenefitingAdventHealthLogo.png
@@ -84,8 +84,13 @@ sections:
 
 
           Like most adults in this world, I have a full time job and rely on that employment to support the lifestyle I have chosen for myself and my family. What is not surprising (Like most of you) I also have a variety of other life commitments that consume my time daily. TIME is the one commodity that we must all better understand if we choose to live a healthier lifestyle. The fact is, our primary roles are most likely linked to activities that are not even remotely connected to the health and fitness industries. Therefore, health and fitness often becomes a low priority or secondary to the activities of our daily lives.  As a consequence, our health and fitness often become “seasonal”.  
-
-
+        image: images/rick.jpg
+        media_position: right
+        media_width: fifty
+      - type: feature
+        template: feature
+        title:
+        content: >-
           It is my desire to help define what “Health and Fitness” means to people.  And that it is very different for each person. Magazine covers should not define our wellness. Once this is understood, it becomes easier to build a sustainable, realistic plan that you can consistently execute within your specific lifestyle and time constraints.  You can make significant changes in your life with limited time. Therefore, It is my goal to explore how we can do this in the most time efficient way possible. 
 
 
@@ -94,8 +99,8 @@ sections:
 
           I want to be the average guy who helps others do uncommon things that ultimately help you achieve a healthier lifestyle. I know this community of sharing will ultimately help me stay inspired!
         image:
-        media_position: none
-        media_width: none
+        media_position: right
+        media_width: fourty
       - type: feature
         template: feature
         title: David
@@ -107,15 +112,23 @@ sections:
 
 
           Many times in my experience, I have seen the devastating looks on individuals faces when they have been told of a new medical condition, a condition that they feel they were blindsided by. And worst, believe that their condition is a potential death sentence. I have always taken that opportunity to educate on the diagnosis, and that in most cases, the condition has been building slowly over time due to bad habits. Habits that can be changed with hard work, dedication, support from friends and family, fellowship from others that have taken the journey previously and most importantly, belief that you can. The power of faith will always be the “x-factor” in your health. 
-
-
+        image: images/dave.jpg
+        media_position: left
+        media_width: fifty
+      - type: feature
+        template: feature
+        title:
+        content: >-
           I see my job as a wayfinder. I know that I will not be able to go on the journey with you, but I will point you in the correct direction. And when the time is needed, I will be there to support good habits and direct you back towards the “true north”. 
 
 
           It is my pleasure to offer what I can to aid you on your journey to better health.
         image:
-        media_position:
-        media_width:
+        media_position: left
+        media_width: fourty
+      feature_padding_vert: small
+      section_padding_top: small
+      section_padding_bottom: small
   - type: form_section
     template: form_section
     title: Everybody Means Every Body
