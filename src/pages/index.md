@@ -259,7 +259,7 @@ sections:
     title: Everybody Means Every Body
     title_align: center
     content: >-
-      Starting a Movement. Subscribe to our newsletter to make sure you don't
+      Building a Community. Subscribe to our newsletter to make sure you don't
       miss anything. No inbox spam, we'll only keep you informed of the event and our mission.
     content_align: center
     form_position: bottom
