@@ -19,7 +19,7 @@ export default function HTML(props) {
       </body>
       <script
         type="text/javascript"
-        src="http://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=d85446b94b92ed3b7b66fdff51355c7d978ef1b4"
+        src="https://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=d85446b94b92ed3b7b66fdff51355c7d978ef1b4"
       ></script>
     </html>
   );
