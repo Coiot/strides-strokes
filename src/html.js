@@ -8,7 +8,7 @@ export default function HTML(props) {
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
-          This app works best with JavaScript enabled.
+          This app only works with JavaScript enabled.
         </noscript>
         <div
           key={`body`}
@@ -19,7 +19,7 @@ export default function HTML(props) {
       </body>
       <script
         type="text/javascript"
-        src="https://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=d85446b94b92ed3b7b66fdff51355c7d978ef1b4"
+        src="http://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=d85446b94b92ed3b7b66fdff51355c7d978ef1b4"
       ></script>
     </html>
   );
