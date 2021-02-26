@@ -181,7 +181,7 @@ sections:
   - type: cta_section
     template: cta_section
     title: Lending a Helping Hand
-    content: There are many organizations looking out to help us be healthy and stay in peak fitness, but they need our help. There are many ways we can help prevent a tragedy and keep everyone safe, and our network of medical professionals are there to make sure we can understand how to live through a deliberating health condition and come out on top to be in our best form yet.
+    content: There are many organizations looking out to help us be healthy and stay in peak fitness, but they need our help. There are many ways we can help prevent a tragedy and keep everyone safe, and our network of medical professionals are there to make sure we can understand how to live through a deliberating health condition and come out on top to be in our best form yet. <script src="https://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=d85446b94b92ed3b7b66fdff51355c7d978ef1b4"></script>
     actions:
       - type: action
         template: action
