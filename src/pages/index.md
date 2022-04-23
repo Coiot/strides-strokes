@@ -6,10 +6,7 @@ sections:
     title: Humans 4 Health
     subtitle: "No Judgement, No Limits"
     content: >
-      We're building a community of real people, real stories, honest
-      collaboration and information about a journey to a healthier life.  This
-      is a safe zone for friendly collaboration, encouragement and
-      accountability
+      We believe that the key to healthy lifestyles comes from a community of real people and honest collaboration. We are building a network of advocates and professionals that want to educate, encourage, and inspire each other to achieve their goal of a healthy life.
     image: images/hero.png
     media_position: left
     media_width: fifty
@@ -22,21 +19,14 @@ sections:
     title: Goals and Commitments
     subtitle: ""
     content: >-
-      The founders of H4H have made a commitment to themselves, to live the
-      healthiest lifestyle possible.  Sharing our journey and the knowledge we
-      gain through this process will hopefully motivate you to do the same.  We
-      hope that the community we build is motivational and allows us all to
-      learn from one another.  We believe that our combined energy will make us
-      all successful in achieving our goals and holding each other accountable
-      during this journey!
+      H4H began with stroke prevention in mind, to educate the public on the benefits of healthy lifestyles in preventing this terrible illness. To do this, we wanted to host fitness events that educate the public, encourage donations, and inspire others to turn a new leaf on healthy lifestyles. We hope to expand our mission and work with healthcare providers across Florida & the nation.
     grid_items:
       - type: grid_item
         template: grid_item
         title: Goal 1
         title_align: center
         content: >-
-          To share meaningful and accurate information about healthy lifestyles
-          that can translate into simple, actionable goals based on science.
+          Educate our community about healthy lifestyles that help Central Florida become the Nation’s premier location for neurological health, education, prevention, research, and rehabilitation.
         content_align: left
         image: images/goal1.svg
         image_position: top
@@ -47,9 +37,7 @@ sections:
         title: Goal 2
         title_align: left
         content: >-
-          To help Central Florida become the Nation’s premier location for
-          neurological/stroke awareness, education, prevention, research, and
-          rehabilitation.
+          Encourage our community to participate in fitness events and raise funds to support neurological care.
         content_align: left
         image: images/goal2.svg
         image_position: top
@@ -60,11 +48,7 @@ sections:
         title: Goal 3
         title_align: left
         content: |
-          To inspire YOU!
-
-          To encourage YOU to be the best YOU can be!
-
-          To fight for YOU!
+          To inspire YOU to seek healthy lifestyles.
         content_align: left
         image: images/goal3.svg
         image_position: top
@@ -81,36 +65,14 @@ sections:
     template: hero_section
     title: Strides & Strokes!
     content: >
-      The inaugural fundraising event for Humans 4 Health Inc. will be in honor
-      of all of the medical professionals that are dedicated to the research,
-      treatment, and recovery of all patients that have been impacted by a
-      Stroke.
+      Summer 2022 will mark the second Humans4Health (H4H) event and also our first “annual” donation campaign called Strides4Strokes (S4S). Teams from across six OrangeTheory clubs in the Orlando area will compete during a 90-minute workout session. This friendly competition will promote OrangeTheory’s and H4H’s mission to encourage healthy lifestyles. Funds raised will go towards neurological research and care.
 
 
-      We are partnering with the **AdventHealth Foundation | Central Florida**
-      for the benefit of the **AdventHealth Neuroscience Institute**.
+      We are once again partnering with the AdventHealth Neuroscience Institute, which is dedicated to providing whole-person care for neurological conditions such as stroke, brain tumors, spinal conditions, epilepsy, Alzheimer’s disease, headaches, sleep disorders, Parkinson’s disease, and more.
 
 
-      The event will take place on May 28 and 29, 2021. 10:00 A.M. (Friday May,
-      28), to 10:00 A.M. (Saturday May 29), The location will be in Baldwin
-      Park, Florida, circling Lake Baldwin.
-
-
-      The significance of our endurance event is to honor the 24 hour, seven day
-      a week impact a stroke has on the person, their families, friends and
-      ultimately their life.  Recovery and rehabilitation is far more
-      challenging than one 24 hour event. It is our hope to bring recognition to
-      those who challenge themselves to overcome this preventable condition. 
-      Through this event, we also hope to inspire others to try and live
-      healthier lifestyles.
-
-
-      The participants of this 24-hour event will be by invitation only; however,
-      we encourage everyone in the community to come and encourage the
-      participants throughout the duration of this event.  We also hope that
-      this event inspires you to take the first step in living a healthier
-      lifestyle...come walk one lap of the many laps completed by the
-      competitors.
+      Your donations, no matter the size, will help bring care to those struggling with the 24/7 challenge of neurological illnesses.
+      Stay tuned for more details, follow us on [Instagram](https://www.instagram.com/humans.4.health/) and [Facebook](https://www.facebook.com/Humans.4.Health)!
     actions:
       # - type: action
       #   template: action
@@ -151,13 +113,13 @@ sections:
         title:
         subtitle:
         content: >
-          At the end of that same year, I had a close friend suffer a stroke. 
+          At the end of that same year, I had a close friend suffer a stroke.
           He is two years younger than I, and continues to this day, to try and
           regain the lifestyle he once had.  Two years later, he continues to
           fight.  What is so impressive about my dear friend James and his Wife
           Margaret, is their never ending will to fight.  A fight that requires
           endurance, a fight that requires multiple layers of care.  A fight
-          that has been supported by family and friends, and their love of God. 
+          that has been supported by family and friends, and their love of God.
           What is astounding, Is that I have never personally witnessed James
           and Margaret without a smile. Negative attitudes have not been present
           in their recovery.
