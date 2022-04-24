@@ -53,7 +53,7 @@ const Checkout = () => {
     setInputText(event.target.value);
   };
 
-  const price_id = inputGymValue
+  const price_id = inputGymValue.toString();
 
   const quantity = inputQuantityValue;
 
@@ -88,7 +88,7 @@ const Checkout = () => {
       <label for="gym-select">Choose a Gym:</label>
       <div className="form-select">
       <select name="gyms" id="gym-select" className="mb-4">
-        <option value="">--Please select a Gym--</option>
+        <option onChange={onChangeGymHandler} value="price_1IIo5IFE8xsP1GiTIeBjrCPc">--Please select a Gym--</option>
         <option onChange={onChangeGymHandler} value="price_1Ks86vFE8xsP1GiTneZHfSO7">OrangeTheory - Winter Park</option>
         <option onChange={onChangeGymHandler} value="price_1Ks87xFE8xsP1GiTmDw5Dkje">OrangeTheory - Oviedo</option>
         <option onChange={onChangeGymHandler} value="price_1Ks88GFE8xsP1GiTBKaCks1h">OrangeTheory - Altamonte Springs</option>
