@@ -41,7 +41,7 @@ const Checkout = () => {
     setInputQuantityValue(parseInt(event.target.value));
   };
 
-  const [inputGymValue, setInputGymValue] = useState("");
+  const [inputGymValue, setInputGymValue] = useState("price_1IIo5IFE8xsP1GiTIeBjrCPc");
 
   const onChangeGymHandler = (event) => {
     setInputGymValue(parseInt(event.target.value));
