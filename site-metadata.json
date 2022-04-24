@@ -143,28 +143,6 @@
         "icon": "twitter",
         "icon_position": "center",
         "new_window": true
-      },
-      {
-        "type": "action",
-        "template": "action",
-        "label": "LinkedIn",
-        "url": "https://www.youtube.com/channel/UCuMaXIqkLjQDwh1yvXkuKdw",
-        "style": "link",
-        "has_icon": true,
-        "icon": "youtube",
-        "icon_position": "center",
-        "new_window": true
-      },
-      {
-        "type": "action",
-        "template": "action",
-        "label": "LinkedIn",
-        "url": "https://vimeo.com/user130773104",
-        "style": "link",
-        "has_icon": true,
-        "icon": "vimeo",
-        "icon_position": "center",
-        "new_window": true
       }
     ],
     "content": "&copy; Humans 4 Health. All rights reserved.",

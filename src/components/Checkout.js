@@ -35,19 +35,27 @@ const getStripe = () => {
 const Checkout = () => {
   const [loading, setLoading] = useState(false);
 
-  const [inputValue, setInputValue] = useState(1);
+  const [inputQuantityValue, setInputQuantityValue] = useState(1);
+
+  const onChangeQuantityHandler = (event) => {
+    setInputQuantityValue(parseInt(event.target.value));
+  };
+
+  const [inputGymValue, setInputGymValue] = useState("");
+
+  const onChangeGymHandler = (event) => {
+    setInputGymValue(parseInt(event.target.value));
+  };
 
   const [inputText, setInputText] = useState("");
-
-  const onChangeHandler = (event) => {
-    setInputValue(parseInt(event.target.value));
-  };
 
   const onChangeText = (event) => {
     setInputText(event.target.value);
   };
 
-  const quantity = inputValue;
+  const price_id = inputGymValue
+
+  const quantity = inputQuantityValue;
 
   const text = inputText;
 
@@ -60,7 +68,7 @@ const Checkout = () => {
       mode: "payment",
       lineItems: [
         {
-          price: "price_1IIo5IFE8xsP1GiTIeBjrCPc",
+          price: price_id,
           quantity: quantity,
         },
       ],
@@ -76,8 +84,23 @@ const Checkout = () => {
   };
 
   return (
-    <div>
-      <input type="number" onChange={onChangeHandler} value={inputValue} />
+    <>
+      <label for="gym-select">Choose a Gym:</label>
+      <div className="form-select">
+      <select name="gyms" id="gym-select" className="mb-4">
+        <option value="">--Please select a Gym--</option>
+        <option onChange={onChangeGymHandler} value="price_1Ks86vFE8xsP1GiTneZHfSO7">OrangeTheory - Winter Park</option>
+        <option onChange={onChangeGymHandler} value="price_1Ks87xFE8xsP1GiTmDw5Dkje">OrangeTheory - Oviedo</option>
+        <option onChange={onChangeGymHandler} value="price_1Ks88GFE8xsP1GiTBKaCks1h">OrangeTheory - Altamonte Springs</option>
+        <option onChange={onChangeGymHandler} value="price_1Ks88YFE8xsP1GiTcMwYQXek">OrangeTheory - Lake Mary</option>
+        <option onChange={onChangeGymHandler} value="price_1Ks88oFE8xsP1GiTLTXABWkc">OrangeTheory - Orlando-SODO</option>
+        <option onChange={onChangeGymHandler} value="price_1Ks894FE8xsP1GiTMBmHGdaa">OrangeTheory - Colonial Plaza</option>
+      </select>
+      </div>
+
+      <label for="price-select">Donation Amount::</label>
+      <input id="price-select" type="number" onChange={onChangeQuantityHandler} value={inputQuantityValue} className="mb-2"/>
+
       <button
         disabled={loading}
         style={
@@ -87,7 +110,7 @@ const Checkout = () => {
       >
         Proceed
       </button>
-    </div>
+    </>
   );
 };
 
