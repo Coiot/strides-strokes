@@ -41,13 +41,20 @@ const Checkout = () => {
     setInputQuantityValue(parseInt(event.target.value));
   };
 
-  const [inputGymValue, setInputGymValue] = useState("price_1IIo5IFE8xsP1GiTIeBjrCPc");
-
-  const onChangeGymHandler = (event) => {
-    setInputGymValue(parseInt(event.target.value));
-  };
+  const [inputGymValue, setInputGymValue] = useState(
+    "price_1IIo5IFE8xsP1GiTIeBjrCPc"
+  );
 
   const [inputText, setInputText] = useState("");
+
+  const onChangeGymHandler = (event) => {
+    setInputGymValue(event.target.value);
+    setInputText(
+      document.getElementById("gym-select").options[
+        document.getElementById("gym-select").selectedIndex
+      ].text
+    );
+  };
 
   const onChangeText = (event) => {
     setInputText(event.target.value);
@@ -75,6 +82,7 @@ const Checkout = () => {
       successUrl: `https://humans4health.netlify.app/thank-you-donation/`,
       cancelUrl: `https://humans4health.netlify.app/`,
       submitType: "donate",
+      metadata: text,
     });
 
     if (error) {
@@ -87,19 +95,60 @@ const Checkout = () => {
     <>
       <label for="gym-select">Choose a Gym:</label>
       <div className="form-select">
-      <select name="gyms" id="gym-select" className="mb-4">
-        <option onChange={onChangeGymHandler} value="price_1IIo5IFE8xsP1GiTIeBjrCPc">--Please select a Gym--</option>
-        <option onChange={onChangeGymHandler} value="price_1Ks86vFE8xsP1GiTneZHfSO7">OrangeTheory - Winter Park</option>
-        <option onChange={onChangeGymHandler} value="price_1Ks87xFE8xsP1GiTmDw5Dkje">OrangeTheory - Oviedo</option>
-        <option onChange={onChangeGymHandler} value="price_1Ks88GFE8xsP1GiTBKaCks1h">OrangeTheory - Altamonte Springs</option>
-        <option onChange={onChangeGymHandler} value="price_1Ks88YFE8xsP1GiTcMwYQXek">OrangeTheory - Lake Mary</option>
-        <option onChange={onChangeGymHandler} value="price_1Ks88oFE8xsP1GiTLTXABWkc">OrangeTheory - Orlando-SODO</option>
-        <option onChange={onChangeGymHandler} value="price_1Ks894FE8xsP1GiTMBmHGdaa">OrangeTheory - Colonial Plaza</option>
-      </select>
+        <select name="gyms" id="gym-select" className="mb-4">
+          <option
+            onChange={onChangeGymHandler}
+            value="price_1IIo5IFE8xsP1GiTIeBjrCPc"
+          >
+            --Please select a Gym--
+          </option>
+          <option
+            onChange={onChangeGymHandler}
+            value="price_1Ks86vFE8xsP1GiTneZHfSO7"
+          >
+            OrangeTheory - Winter Park
+          </option>
+          <option
+            onChange={onChangeGymHandler}
+            value="price_1Ks87xFE8xsP1GiTmDw5Dkje"
+          >
+            OrangeTheory - Oviedo
+          </option>
+          <option
+            onChange={onChangeGymHandler}
+            value="price_1Ks88GFE8xsP1GiTBKaCks1h"
+          >
+            OrangeTheory - Altamonte Springs
+          </option>
+          <option
+            onChange={onChangeGymHandler}
+            value="price_1Ks88YFE8xsP1GiTcMwYQXek"
+          >
+            OrangeTheory - Lake Mary
+          </option>
+          <option
+            onChange={onChangeGymHandler}
+            value="price_1Ks88oFE8xsP1GiTLTXABWkc"
+          >
+            OrangeTheory - Orlando-SODO
+          </option>
+          <option
+            onChange={onChangeGymHandler}
+            value="price_1Ks894FE8xsP1GiTMBmHGdaa"
+          >
+            OrangeTheory - Colonial Plaza
+          </option>
+        </select>
       </div>
 
       <label for="price-select">Donation Amount::</label>
-      <input id="price-select" type="number" onChange={onChangeQuantityHandler} value={inputQuantityValue} className="mb-2"/>
+      <input
+        id="price-select"
+        type="number"
+        onChange={onChangeQuantityHandler}
+        value={inputQuantityValue}
+        className="mb-2"
+      />
 
       <button
         disabled={loading}
