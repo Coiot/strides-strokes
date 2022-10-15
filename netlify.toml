@@ -1,3 +1,4 @@
 [build]
 publish = "public"
 command = "yarn build"
+NODE_VERSION = ^16.10.0
