@@ -41,9 +41,17 @@ const Checkout = () => {
     setInputQuantityValue(parseInt(event.target.value));
   };
 
+<<<<<<< HEAD
   const [inputGymValue, setInputGymValue] = useState(
     "price_1IIo5IFE8xsP1GiTIeBjrCPc"
   );
+=======
+  const [inputGymValue, setInputGymValue] = useState("");
+
+  const onChangeGymHandler = (event) => {
+    setInputGymValue(parseInt(event.target.value));
+  };
+>>>>>>> parent of 151ec4c (*)
 
   const [inputText, setInputText] = useState("");
 
